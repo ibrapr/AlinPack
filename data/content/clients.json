@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Premium Dairy Co.",
+    "industry": {
+      "en": "Dairy",
+      "he": "מוצרי חלב"
+    },
+    "image": "/products/dairy.jpg"
+  },
+  {
+    "name": "Mediterranean Foods",
+    "industry": {
+      "en": "Sauces & Spreads",
+      "he": "רטבים וממרחים"
+    },
+    "image": "/products/sauces.jpg"
+  },
+  {
+    "name": "Galilee Honey",
+    "industry": {
+      "en": "Honey",
+      "he": "דבש"
+    },
+    "image": "/products/honey.jpg"
+  },
+  {
+    "name": "Roasted Bean Co.",
+    "industry": {
+      "en": "Coffee",
+      "he": "קפה"
+    },
+    "image": "/products/coffee.jpg"
+  },
+  {
+    "name": "Pure Tahini",
+    "industry": {
+      "en": "Tahini",
+      "he": "טחינה"
+    },
+    "image": "/products/tahini.jpg"
+  },
+  {
+    "name": "CleanLine Industries",
+    "industry": {
+      "en": "Detergents",
+      "he": "דטרגנטים"
+    },
+    "image": "/products/detergents.jpg"
+  },
+  {
+    "name": "Riviera Cosmetics",
+    "industry": {
+      "en": "Cosmetics",
+      "he": "קוסמטיקה"
+    },
+    "image": "/products/cosmetics.jpg"
+  },
+  {
+    "name": "Fresh Valley Produce",
+    "industry": {
+      "en": "Fruits & Vegetables",
+      "he": "פירות וירקות"
+    },
+    "image": "/products/vegetables.jpg"
+  },
+  {
+    "name": "OceanCatch Fish Co.",
+    "industry": {
+      "en": "Fish",
+      "he": "דגים"
+    },
+    "image": "/products/fish.jpg"
+  },
+  {
+    "name": "Petfit Foods",
+    "industry": {
+      "en": "Pet Food",
+      "he": "מזון לחיות"
+    },
+    "image": "/products/pet-food.jpg"
+  },
+  {
+    "name": "Salads & More",
+    "industry": {
+      "en": "Salads",
+      "he": "סלטים"
+    },
+    "image": "/products/salads.jpg"
+  },
+  {
+    "name": "Spice Master",
+    "industry": {
+      "en": "Powders & Spices",
+      "he": "אבקות ותבלינים"
+    },
+    "image": "/products/powders.jpg"
+  }
+]

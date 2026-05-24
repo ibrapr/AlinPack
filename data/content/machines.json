@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "sample-piston-filler",
+    "name": {
+      "en": "Sample Piston Filler",
+      "he": "ממלא בוכנה לדוגמה"
+    },
+    "category": "filling",
+    "shortDescription": {
+      "en": "Example machine — replace with your real catalog. Inline piston filler for viscous products like sauces, honey, tahini, and spreads.",
+      "he": "מכונה לדוגמה — החליפו אותה במוצרים האמיתיים שלכם. ממלא בוכנה ליניארי למוצרים צמיגים כמו רטבים, דבש, טחינה וממרחים."
+    },
+    "description": {
+      "en": "This is a starter example. Edit or replace this machine from the admin panel at /admin/machines. All fields are populated so you can see the layout before adding your real catalog.",
+      "he": "זוהי דוגמת התחלה. ערכו או החליפו את המכונה הזו דרך פאנל הניהול ב-/admin/machines. כל השדות מלאים כדי שתראו את המבנה לפני הוספת הקטלוג האמיתי שלכם."
+    },
+    "features": {
+      "en": [
+        "Independently controlled filling stations",
+        "Handles particulates and chunky products",
+        "Optional heated jacket for hot-fill",
+        "No-drip cut-off valves",
+        "Recipe management via touchscreen",
+        "Quick-clean disassembly"
+      ],
+      "he": [
+        "תחנות מילוי מבוקרות באופן עצמאי",
+        "מתאים לחלקיקים ולמוצרים עם חתיכות",
+        "אפשרות לבידוד מחומם למילוי חם",
+        "שסתומים ללא טפטוף",
+        "ניהול מתכונים דרך מסך מגע",
+        "פירוק מהיר לניקוי"
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Ideal for sauces, jams, honey, tahini",
+        "Tolerates chunky products and particulates",
+        "Fast cleaning between product changes",
+        "Energy-efficient operation"
+      ],
+      "he": [
+        "אידיאלי לרטבים, ריבות, דבש וטחינה",
+        "סבילות לחלקיקים ומוצרים עם חתיכות",
+        "ניקוי מהיר בין מוצרים",
+        "פעולה יעילה אנרגטית"
+      ]
+    },
+    "specs": [
+      {
+        "label": {
+          "en": "Output",
+          "he": "תפוקה"
+        },
+        "value": {
+          "en": "Up to 3,000 units/hour",
+          "he": "עד 3,000 יחידות/שעה"
+        }
+      },
+      {
+        "label": {
+          "en": "Fill volume",
+          "he": "נפח מילוי"
+        },
+        "value": {
+          "en": "50 ml – 5 L",
+          "he": "50 מ\"ל – 5 ל׳"
+        }
+      },
+      {
+        "label": {
+          "en": "Number of heads",
+          "he": "מספר ראשים"
+        },
+        "value": {
+          "en": "2 / 4 / 6 / 8",
+          "he": "2 / 4 / 6 / 8"
+        }
+      },
+      {
+        "label": {
+          "en": "Power",
+          "he": "הספק"
+        },
+        "value": {
+          "en": "380V / 50Hz / 4 kW",
+          "he": "380V / 50Hz / 4 ק\"וו"
+        }
+      }
+    ],
+    "compatibleProductSlugs": [
+      "sauces",
+      "honey",
+      "tahini",
+      "spreads",
+      "cosmetics",
+      "salads",
+      "jars",
+      "bottles",
+      "buckets"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "How small a batch can it handle?",
+          "he": "איזה גודל אצווה מינימלי המכונה תומכת?"
+        },
+        "answer": {
+          "en": "The piston system is well suited for short batches — changeover takes under 15 minutes for most products.",
+          "he": "מערכת הבוכנה מתאימה היטב לאצוות קצרות — החלפת מוצר נמשכת פחות מ-15 דקות במרבית המוצרים."
+        }
+      }
+    ],
+    "videos": [],
+    "gallery": [],
+    "featured": true,
+    "image": "/machines/sample-piston-filler.jpg"
+  }
+]

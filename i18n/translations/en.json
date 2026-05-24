@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "siteName": "Alin Pack",
+    "tagline": "Custom Packaging Machines",
+    "defaultDescription": "Alin Pack provides custom packaging machines and solutions for food, cosmetics, chemicals, and more — trusted by manufacturers since 2007."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "machines": "Machines",
+    "products": "Products",
+    "services": "Services",
+    "clients": "Clients",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "viewDetails": "View details",
+    "requestQuote": "Request a quote",
+    "contactUs": "Contact us",
+    "whatsapp": "WhatsApp",
+    "callUs": "Call us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "since": "Since",
+    "yearsExperience": "Years of experience",
+    "readMore": "Read more",
+    "back": "Back",
+    "search": "Search",
+    "filter": "Filter",
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "all": "All",
+    "category": "Category",
+    "categories": "Categories",
+    "noResults": "No results found",
+    "loading": "Loading...",
+    "sendMessage": "Send Message",
+    "getInTouch": "Get in touch",
+    "exploreMore": "Explore more",
+    "compatibleWith": "Compatible with",
+    "recommendedMachines": "Recommended machines",
+    "relatedMachines": "Related machines",
+    "relatedProducts": "Related products",
+    "specifications": "Specifications",
+    "features": "Features",
+    "benefits": "Benefits",
+    "gallery": "Gallery",
+    "overview": "Overview",
+    "faq": "FAQ",
+    "talkToExpert": "Talk to an expert"
+  },
+  "home": {
+    "hero": {
+      "badge": "Trusted Since 2007",
+      "title": "Custom Packaging Machines for Your Products",
+      "subtitle": "From dairy to detergents, honey to cosmetics — we engineer tailored packaging solutions that match every product, every line, every scale of production.",
+      "ctaQuote": "Request a Quote",
+      "ctaMachines": "Explore Machines",
+      "ctaWhatsapp": "WhatsApp Us"
+    },
+    "trust": {
+      "title": "An industrial partner you can rely on",
+      "subtitle": "Nearly two decades of engineering packaging solutions for manufacturers across Israel and beyond.",
+      "items": {
+        "experience": {
+          "title": "18+ Years of Expertise",
+          "description": "Trusted by manufacturers since 2007."
+        },
+        "custom": {
+          "title": "Tailored to Your Product",
+          "description": "Every line designed around your specific product and output."
+        },
+        "support": {
+          "title": "End-to-End Support",
+          "description": "From consultation and installation to spare parts and service."
+        },
+        "global": {
+          "title": "International Quality",
+          "description": "Premium components and engineering standards."
+        }
+      }
+    },
+    "categories": {
+      "eyebrow": "Product categories",
+      "title": "Solutions for every product",
+      "subtitle": "Tell us what you produce — we'll match it with the right machine.",
+      "cta": "Browse all products"
+    },
+    "featured": {
+      "eyebrow": "Featured machines",
+      "title": "Engineered for performance",
+      "subtitle": "Premium packaging machines built for reliability, precision, and flexibility.",
+      "cta": "View all machines"
+    },
+    "why": {
+      "eyebrow": "Why Alin Pack",
+      "title": "Built on engineering, proven by results",
+      "subtitle": "We don't sell off-the-shelf boxes. We design packaging lines that fit your product, your throughput, and your business model.",
+      "items": {
+        "consult": {
+          "title": "Consultative approach",
+          "description": "We start with your product and packaging goals — never with a pre-made offer."
+        },
+        "quality": {
+          "title": "Premium components",
+          "description": "Built with industrial-grade parts that last and perform under real-world conditions."
+        },
+        "customization": {
+          "title": "True customization",
+          "description": "Machines configured to your line, your speed, your packaging format."
+        },
+        "service": {
+          "title": "Long-term partnership",
+          "description": "Technical support, spare parts, and maintenance for years after delivery."
+        }
+      }
+    },
+    "stats": {
+      "title": "Numbers that build confidence",
+      "subtitle": "A track record built one production line at a time.",
+      "items": {
+        "years": "Years in business",
+        "machines": "Machines delivered",
+        "clients": "Active clients",
+        "industries": "Industries served"
+      }
+    },
+    "testimonials": {
+      "eyebrow": "What our clients say",
+      "title": "Trusted by manufacturers who demand reliability",
+      "items": {
+        "one": {
+          "quote": "Alin Pack delivered a packaging line that fit our dairy products perfectly. Their team understood our needs from day one.",
+          "name": "Production Manager",
+          "company": "Premium Dairy Co."
+        },
+        "two": {
+          "quote": "The level of customization and after-sales support is something we didn't expect at this price point. A real industrial partner.",
+          "name": "Operations Director",
+          "company": "Mediterranean Foods"
+        },
+        "three": {
+          "quote": "We've been working with Alin Pack for years. Reliable machines, fast service, and honest advice.",
+          "name": "CEO",
+          "company": "Honey & Co."
+        }
+      }
+    },
+    "ctaSection": {
+      "title": "Tell us about your product. We'll engineer the machine.",
+      "subtitle": "Custom packaging machines, expert consultation, and lifetime support — all in one place.",
+      "cta": "Request Your Quote"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Alin Pack",
+      "title": "Engineering packaging since 2007",
+      "subtitle": "A family-built industrial company specializing in customized packaging machines for manufacturers across food, cosmetics, chemicals, and more."
+    },
+    "story": {
+      "title": "Our story",
+      "p1": "Alin Pack was founded in 2007 with one clear belief: every product deserves a packaging machine designed specifically for it. From our base in Deir Hanna, we've spent nearly two decades helping manufacturers across Israel — and beyond — package their products faster, cleaner, and more efficiently.",
+      "p2": "Over the years we've grown from a small workshop into a trusted partner for hundreds of manufacturers. What hasn't changed is our approach: we start every project by listening, then engineer the solution around the customer."
+    },
+    "mission": {
+      "title": "Our mission",
+      "text": "To deliver packaging machines that fit our customers' products exactly — supported by honest consultation, premium engineering, and long-term service."
+    },
+    "values": {
+      "title": "What guides our work",
+      "items": {
+        "quality": { "title": "Engineering quality", "description": "Premium components, robust build, real-world reliability." },
+        "honesty": { "title": "Honest consultation", "description": "We recommend what fits your product — not what's easiest to sell." },
+        "partnership": { "title": "Long-term partnership", "description": "Service, spare parts, and support for the entire machine lifecycle." },
+        "innovation": { "title": "Practical innovation", "description": "Modern packaging technology applied where it actually matters." }
+      }
+    },
+    "process": {
+      "eyebrow": "Our process",
+      "title": "How a custom solution comes together",
+      "steps": {
+        "one": { "title": "Consultation", "description": "We learn about your product, packaging needs, and production targets." },
+        "two": { "title": "Recommendation", "description": "We propose the right machine — or design a custom configuration." },
+        "three": { "title": "Engineering", "description": "Our team configures, builds, and tests the line for your product." },
+        "four": { "title": "Installation", "description": "We install on-site and train your operators." },
+        "five": { "title": "Support", "description": "Ongoing service, spare parts, and technical support." }
+      }
+    }
+  },
+  "machines": {
+    "hero": {
+      "eyebrow": "Machines catalog",
+      "title": "Packaging machines built for performance",
+      "subtitle": "Browse our full catalog of filling, sealing, capping, and complete packaging line solutions."
+    },
+    "searchPlaceholder": "Search machines by name or type...",
+    "filters": {
+      "category": "Machine category",
+      "product": "Compatible product"
+    },
+    "card": {
+      "compatibleWith": "Compatible with",
+      "viewDetails": "View details",
+      "quote": "Request quote"
+    },
+    "noResults": "No machines match your search. Try adjusting filters."
+  },
+  "machineDetail": {
+    "overview": "Overview",
+    "features": "Key features",
+    "specs": "Technical specifications",
+    "products": "Suitable for these products",
+    "benefits": "Benefits",
+    "faq": "Frequently asked questions",
+    "related": "Related machines",
+    "requestQuote": "Request a quote for this machine",
+    "whatsapp": "Ask about this machine on WhatsApp",
+    "back": "Back to machines"
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "Products & packaging",
+      "title": "What do you need to package?",
+      "subtitle": "Click any product to see all the machines we recommend for packaging it."
+    },
+    "searchPlaceholder": "Search products...",
+    "groupAll": "All products",
+    "groupFood": "Food & Beverage",
+    "groupCosmetics": "Cosmetics & Personal Care",
+    "groupChemicals": "Detergents & Chemicals",
+    "groupPet": "Pet Food",
+    "groupContainers": "Containers & Formats",
+    "card": {
+      "machines": "machines available",
+      "view": "View machines"
+    }
+  },
+  "productDetail": {
+    "overview": "Packaging this product",
+    "needs": "Packaging needs",
+    "types": "Common packaging types",
+    "machines": "Recommended machines",
+    "machinesSubtitle": "Machines from our catalog suitable for packaging this product.",
+    "ctaTitle": "Need help choosing the right machine?",
+    "ctaSubtitle": "Talk to our packaging experts — we'll match the perfect machine to your product.",
+    "back": "Back to products",
+    "noMachines": "Contact us for a custom recommendation for this product."
+  },
+  "clients": {
+    "hero": {
+      "eyebrow": "Our clients",
+      "title": "Trusted by leading manufacturers",
+      "subtitle": "From boutique producers to large-scale industrial brands, manufacturers choose Alin Pack for reliability and partnership."
+    },
+    "logos": {
+      "title": "Companies we work with"
+    },
+    "stories": {
+      "title": "Success stories",
+      "subtitle": "Real packaging challenges, real solutions.",
+      "items": {
+        "one": { "title": "Doubling output for a regional dairy", "description": "We replaced a manual filling line with an automated solution — cutting production time in half while improving consistency." },
+        "two": { "title": "A custom honey packaging line", "description": "We designed a temperature-controlled filling and capping line for a premium honey brand." },
+        "three": { "title": "Detergent filling at industrial scale", "description": "A complete liquid filling, capping, and labeling line built for a leading household chemicals manufacturer." }
+      }
+    },
+    "partner": {
+      "title": "Become a partner",
+      "subtitle": "Looking for a reliable packaging partner for your manufacturing line? We'd love to talk.",
+      "cta": "Start the conversation"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Our services",
+      "title": "End-to-end packaging support",
+      "subtitle": "From the first consultation to long-term maintenance — we handle the entire packaging journey."
+    },
+    "items": {
+      "consultation": {
+        "title": "Packaging consultation",
+        "description": "Expert advice on packaging formats, machine selection, and line design — tailored to your product and budget."
+      },
+      "supply": {
+        "title": "Machine supply",
+        "description": "A wide catalog of filling, sealing, capping, and complete packaging line machines for any industry."
+      },
+      "custom": {
+        "title": "Custom solutions",
+        "description": "We engineer custom-configured machines and full packaging lines around your exact product and throughput needs."
+      },
+      "support": {
+        "title": "Technical support",
+        "description": "Fast technical support from engineers who know your machine inside and out."
+      },
+      "maintenance": {
+        "title": "Maintenance",
+        "description": "Preventive maintenance programs that keep your line running at peak efficiency."
+      },
+      "spare": {
+        "title": "Spare parts",
+        "description": "Original spare parts in stock — minimizing downtime and keeping production moving."
+      }
+    },
+    "ctaTitle": "Need help with a packaging project?",
+    "ctaSubtitle": "Tell us what you're producing and we'll recommend the right path forward."
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your packaging",
+      "subtitle": "Tell us about your product and we'll respond with a tailored recommendation."
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Full name",
+      "namePlaceholder": "Your full name",
+      "company": "Company name",
+      "companyPlaceholder": "Your company",
+      "phone": "Phone",
+      "phonePlaceholder": "Your phone number",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "product": "Product type",
+      "productPlaceholder": "What do you need to package?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your product, production volume, and any specific packaging needs...",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Thanks! Your message has been received. We'll be in touch shortly.",
+      "error": "Something went wrong. Please try again or reach us on WhatsApp."
+    },
+    "info": {
+      "title": "Contact information",
+      "phoneLabel": "Phone",
+      "whatsappLabel": "WhatsApp",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "hoursLabel": "Hours",
+      "hoursValue": "Sun–Thu, 8:00 – 17:00"
+    },
+    "map": {
+      "title": "Find us"
+    }
+  },
+  "footer": {
+    "tagline": "Custom packaging machines, engineered to fit your product. Trusted since 2007.",
+    "company": "Company",
+    "explore": "Explore",
+    "support": "Support",
+    "contact": "Contact",
+    "legal": "© 2026 Alin Pack. All rights reserved.",
+    "credits": "Designed for industrial excellence."
+  },
+  "whatsapp": {
+    "default": "Hello Alin Pack, I am interested in a packaging machine",
+    "machine": "Hello Alin Pack, I am interested in the {name} machine",
+    "product": "Hello Alin Pack, I need a packaging solution for {name}",
+    "tooltip": "Chat on WhatsApp"
+  }
+}

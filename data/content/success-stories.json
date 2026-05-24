@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "dairy-doubling-output",
+    "title": {
+      "en": "Doubling output for a regional dairy",
+      "he": "הכפלת התפוקה למחלבה אזורית"
+    },
+    "description": {
+      "en": "We replaced a manual filling line with an automated cup-fill-seal solution — cutting production time in half while improving consistency.",
+      "he": "החלפנו קו מילוי ידני בפתרון אוטומטי של מילוי-סגירת כוסות — חצינו את זמן הייצור ושיפרנו את האחידות."
+    },
+    "industry": {
+      "en": "Dairy",
+      "he": "מוצרי חלב"
+    }
+  },
+  {
+    "slug": "custom-honey-line",
+    "title": {
+      "en": "A custom honey packaging line",
+      "he": "קו אריזה ייעודי לדבש"
+    },
+    "description": {
+      "en": "We designed a temperature-controlled filling and capping line for a premium honey brand — handling crystallization gracefully.",
+      "he": "תכננו קו מילוי וסגירה עם בקרת טמפרטורה למותג דבש פרימיום — תוך טיפול בתופעת ההתגבשות בעדינות."
+    },
+    "industry": {
+      "en": "Honey",
+      "he": "דבש"
+    }
+  },
+  {
+    "slug": "detergent-industrial-scale",
+    "title": {
+      "en": "Detergent filling at industrial scale",
+      "he": "מילוי דטרגנטים בקנה מידה תעשייתי"
+    },
+    "description": {
+      "en": "A complete liquid filling, capping, and labeling line built for a leading household chemicals manufacturer.",
+      "he": "קו שלם של מילוי נוזלים, סגירה ותיוג עבור יצרן כימיקלים מוביל."
+    },
+    "industry": {
+      "en": "Detergents",
+      "he": "דטרגנטים"
+    }
+  }
+]

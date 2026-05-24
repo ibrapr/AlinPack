@@ -1,0 +1,1142 @@
+[
+  {
+    "slug": "dairy",
+    "name": {
+      "en": "Dairy",
+      "he": "מוצרי חלב"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Yogurt, cottage cheese, cream, dips and other dairy products.",
+      "he": "יוגורט, גבינה לבנה, שמנת, ממרחים ומוצרי חלב נוספים."
+    },
+    "description": {
+      "en": "Dairy packaging demands hygiene, temperature control, and precise dosing. Our solutions cover cups, bottles, tubs, and pouches with full sanitary standards.",
+      "he": "אריזת מוצרי חלב דורשת היגיינה, בקרת טמפרטורה ומינון מדויק. הפתרונות שלנו מכסים כוסות, בקבוקים, גביעים ושקיות בעמידה בתקני סניטציה מלאים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Hygienic filling",
+        "Cold-chain compatible",
+        "Accurate dosing",
+        "Quick changeover"
+      ],
+      "he": [
+        "מילוי היגייני",
+        "תאימות לקירור",
+        "מינון מדויק",
+        "החלפת פורמטים מהירה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Cups",
+        "Plastic tubs",
+        "Bottles",
+        "Stand-up pouches"
+      ],
+      "he": [
+        "כוסות",
+        "גביעי פלסטיק",
+        "בקבוקים",
+        "שקיות עומדות"
+      ]
+    },
+    "icon": "milk",
+    "image": "/products/dairy.jpg"
+  },
+  {
+    "slug": "sauces",
+    "name": {
+      "en": "Sauces",
+      "he": "רטבים"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Ketchup, mayonnaise, salad dressings and condiments.",
+      "he": "קטשופ, מיונז, רטבים לסלט ותבלינים."
+    },
+    "description": {
+      "en": "Sauces vary in viscosity, particulates, and temperature — making the right filling technology critical. We provide piston, gear-pump, and rotary fillers for sauces of all kinds.",
+      "he": "רטבים נבדלים בצמיגות, חלקיקים וטמפרטורה — מה שהופך את בחירת טכנולוגיית המילוי לקריטית. אנו מספקים ממלאי בוכנה, משאבת גלגלי שיניים וממלאים סיבוביים לכל סוגי הרטבים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Viscous-product handling",
+        "No drip / clean cut-off",
+        "Particulate tolerance",
+        "Hot-fill capable"
+      ],
+      "he": [
+        "טיפול במוצרים צמיגים",
+        "ללא טפטופים / חיתוך נקי",
+        "סבילות לחלקיקים",
+        "מילוי חם"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Glass jars",
+        "Plastic bottles",
+        "Squeeze pouches",
+        "Sachets"
+      ],
+      "he": [
+        "צנצנות זכוכית",
+        "בקבוקי פלסטיק",
+        "שקיות סחיטה",
+        "שקיות חד-פעמיות"
+      ]
+    },
+    "icon": "bottle",
+    "image": "/products/sauces.jpg"
+  },
+  {
+    "slug": "honey",
+    "name": {
+      "en": "Honey",
+      "he": "דבש"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Pure honey, honey blends, infused honey products.",
+      "he": "דבש טהור, תערובות דבש ומוצרי דבש מועשרים."
+    },
+    "description": {
+      "en": "Honey is highly viscous and crystallizes easily — packaging lines require heating, gentle filling, and precise dosing for jars, squeeze bottles, and sticks.",
+      "he": "דבש צמיג מאוד ונוטה להתגבש — קווי אריזה דורשים חימום, מילוי עדין ומינון מדויק לצנצנות, בקבוקי סחיטה וסטיקים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Heated product handling",
+        "High-viscosity filling",
+        "Drip-free nozzles",
+        "Tamper-evident sealing"
+      ],
+      "he": [
+        "טיפול במוצר מחומם",
+        "מילוי בצמיגות גבוהה",
+        "ללא טפטופים",
+        "סגירה עם חיווי פתיחה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Glass jars",
+        "Squeeze bottles",
+        "Honey sticks",
+        "Buckets"
+      ],
+      "he": [
+        "צנצנות זכוכית",
+        "בקבוקי סחיטה",
+        "סטיקים",
+        "דליים"
+      ]
+    },
+    "icon": "honey",
+    "image": "/products/honey.jpg"
+  },
+  {
+    "slug": "coffee",
+    "name": {
+      "en": "Coffee",
+      "he": "קפה"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Ground, beans, instant coffee, and capsules.",
+      "he": "קפה טחון, פולים, קפה נמס וקפסולות."
+    },
+    "description": {
+      "en": "Coffee packaging requires oxygen and moisture barrier, often with one-way degassing valves. We supply baggers, sachet fillers, and capsule lines.",
+      "he": "אריזת קפה דורשת מחסום חמצן ולחות, לרוב עם שסתום פליטת גזים. אנו מספקים שקיות, ממלאי סשה וקווי קפסולות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Oxygen-tight sealing",
+        "Volumetric or weight dosing",
+        "Degassing valve compatible",
+        "Fine-particle handling"
+      ],
+      "he": [
+        "סגירה אטומה לחמצן",
+        "מינון נפחי או משקלי",
+        "תאימות לשסתום פליטה",
+        "טיפול בחלקיקים דקים"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Stand-up pouches",
+        "Pillow bags",
+        "Sachets",
+        "Capsules",
+        "Cans"
+      ],
+      "he": [
+        "שקיות עומדות",
+        "שקיות כרית",
+        "סשה",
+        "קפסולות",
+        "פחיות"
+      ]
+    },
+    "icon": "coffee",
+    "image": "/products/coffee.jpg"
+  },
+  {
+    "slug": "tea",
+    "name": {
+      "en": "Tea",
+      "he": "תה"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Loose tea, tea bags, and herbal blends.",
+      "he": "תה תפזורת, שקיקי תה ותערובות צמחים."
+    },
+    "description": {
+      "en": "Tea packaging covers single-serve sachets, pyramid bags, and bulk pouches — each with specific machine requirements.",
+      "he": "אריזת תה כוללת סשה לחד-פעמי, שקיות פירמידה ושקיות תפזורת — לכל אחד דרישות מכונה ייעודיות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Light-product dosing",
+        "Tea-bag forming",
+        "Aroma-tight sealing",
+        "High-speed throughput"
+      ],
+      "he": [
+        "מינון מוצרים קלים",
+        "יצירת שקיקי תה",
+        "סגירה אטומה לארומה",
+        "תפוקה גבוהה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Tea bags",
+        "Pyramid bags",
+        "Sachets",
+        "Stand-up pouches",
+        "Cans"
+      ],
+      "he": [
+        "שקיקי תה",
+        "שקיות פירמידה",
+        "סשה",
+        "שקיות עומדות",
+        "פחיות"
+      ]
+    },
+    "icon": "tea",
+    "image": "/products/tea.jpg"
+  },
+  {
+    "slug": "powders",
+    "name": {
+      "en": "Powders",
+      "he": "אבקות"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Spices, baking mixes, protein powders, sugar.",
+      "he": "תבלינים, תערובות אפייה, אבקות חלבון וסוכר."
+    },
+    "description": {
+      "en": "From free-flowing sugar to sticky protein powders, our auger and volumetric fillers handle the entire spectrum of powdered products.",
+      "he": "מסוכר זורם ועד אבקות חלבון דביקות — הממלאים בעלי המבריג והנפחיים שלנו מטפלים בכל קשת המוצרים האבקתיים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Auger or weigher dosing",
+        "Dust extraction",
+        "Anti-clumping handling",
+        "Sealed bag formats"
+      ],
+      "he": [
+        "מינון מבריג או משוקלל",
+        "שאיבת אבק",
+        "טיפול נגד הצטברות",
+        "אריזות אטומות"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Sachets",
+        "Stand-up pouches",
+        "Jars",
+        "Bottles",
+        "Bags"
+      ],
+      "he": [
+        "סשה",
+        "שקיות עומדות",
+        "צנצנות",
+        "בקבוקים",
+        "שקיות"
+      ]
+    },
+    "icon": "powder",
+    "image": "/products/powders.jpg"
+  },
+  {
+    "slug": "liquids",
+    "name": {
+      "en": "Liquids",
+      "he": "נוזלים"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Water, juice, oil, vinegar and other free-flowing liquids.",
+      "he": "מים, מיץ, שמן, חומץ ונוזלים זורמים אחרים."
+    },
+    "description": {
+      "en": "Linear and rotary liquid fillers — from low-viscosity water to thicker oils — with precision flow-meter or volumetric dosing.",
+      "he": "ממלאי נוזלים ליניאריים וסיבוביים — ממים לצמיגות נמוכה ועד שמנים סמיכים — עם מינון מדויק במד זרימה או נפחי."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Drip-free nozzles",
+        "High-speed filling",
+        "Foam control",
+        "Multiple format support"
+      ],
+      "he": [
+        "חרירים ללא טפטוף",
+        "מילוי במהירות גבוהה",
+        "בקרת קצף",
+        "תמיכה במספר פורמטים"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Bottles",
+        "Jerry cans",
+        "Pouches",
+        "Bag-in-box"
+      ],
+      "he": [
+        "בקבוקים",
+        "ג׳ריקנים",
+        "שקיות",
+        "שקית בקרטון"
+      ]
+    },
+    "icon": "droplet",
+    "image": "/products/liquids.jpg"
+  },
+  {
+    "slug": "cosmetics",
+    "name": {
+      "en": "Cosmetics",
+      "he": "קוסמטיקה"
+    },
+    "group": "cosmetics",
+    "shortDescription": {
+      "en": "Creams, lotions, serums, gels, and beauty products.",
+      "he": "קרמים, לוסיונים, סרומים, ג׳לים ומוצרי יופי."
+    },
+    "description": {
+      "en": "Cosmetic packaging requires premium presentation, accurate dosing of viscous products, and hygienic filling. We offer rotary and inline solutions.",
+      "he": "אריזה קוסמטית דורשת מצג פרימיום, מינון מדויק של מוצרים צמיגים ומילוי היגייני. אנו מציעים פתרונות סיבוביים וליניאריים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Viscous-product filling",
+        "Premium pump or cap closures",
+        "Tamper-evident sealing",
+        "Gentle product handling"
+      ],
+      "he": [
+        "מילוי מוצרים צמיגים",
+        "סגירות פרימיום או משאבות",
+        "סגירה עם חיווי פתיחה",
+        "טיפול עדין במוצר"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Tubes",
+        "Bottles",
+        "Jars",
+        "Airless pumps"
+      ],
+      "he": [
+        "טובוסים",
+        "בקבוקים",
+        "צנצנות",
+        "משאבות איירלס"
+      ]
+    },
+    "icon": "sparkles",
+    "image": "/products/cosmetics.jpg"
+  },
+  {
+    "slug": "detergents",
+    "name": {
+      "en": "Detergents",
+      "he": "דטרגנטים"
+    },
+    "group": "chemicals",
+    "shortDescription": {
+      "en": "Laundry liquids, dish soap, surface cleaners.",
+      "he": "נוזלי כביסה, סבון כלים, מנקי משטחים."
+    },
+    "description": {
+      "en": "Detergent lines handle foamy liquids, large containers, and high throughput. Our solutions integrate filling, capping, and labeling into a single line.",
+      "he": "קווי דטרגנטים מטפלים בנוזלים מקציפים, מכלים גדולים ותפוקה גבוהה. הפתרונות שלנו משלבים מילוי, סגירה ותיוג בקו אחד."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Foam-control filling",
+        "Corrosion-resistant components",
+        "Large-container handling",
+        "Trigger / pump caps"
+      ],
+      "he": [
+        "מילוי עם בקרת קצף",
+        "רכיבים עמידים בקורוזיה",
+        "טיפול במכלים גדולים",
+        "סגירות עם משאבה / טריגר"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Bottles",
+        "Jerry cans",
+        "Buckets",
+        "Trigger spray bottles"
+      ],
+      "he": [
+        "בקבוקים",
+        "ג׳ריקנים",
+        "דליים",
+        "בקבוקי תרסיס"
+      ]
+    },
+    "icon": "spray",
+    "image": "/products/detergents.jpg"
+  },
+  {
+    "slug": "fruits",
+    "name": {
+      "en": "Fruits",
+      "he": "פירות"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Fresh fruits, cut fruits, and fruit pieces.",
+      "he": "פירות טריים, פירות חתוכים ופלחים."
+    },
+    "description": {
+      "en": "Fresh produce packaging focuses on gentle handling, atmosphere control, and trays or pouches for retail.",
+      "he": "אריזת פירות מתמקדת בטיפול עדין, בקרת אווירה ומגשי אריזה או שקיות לקמעונאות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Gentle product handling",
+        "MAP / atmosphere control",
+        "Tray sealing",
+        "Weight-based dosing"
+      ],
+      "he": [
+        "טיפול עדין במוצר",
+        "בקרת אווירה (MAP)",
+        "הלחמת מגשים",
+        "מינון על בסיס משקל"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Trays",
+        "Stand-up pouches",
+        "Punnets",
+        "Net bags"
+      ],
+      "he": [
+        "מגשים",
+        "שקיות עומדות",
+        "אריזות פלסטיק שקופות",
+        "שקיות רשת"
+      ]
+    },
+    "icon": "apple",
+    "image": "/products/fruits.jpg"
+  },
+  {
+    "slug": "vegetables",
+    "name": {
+      "en": "Vegetables",
+      "he": "ירקות"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Fresh, cut, and processed vegetables.",
+      "he": "ירקות טריים, חתוכים ומעובדים."
+    },
+    "description": {
+      "en": "From whole vegetables to packaged salads — flow-pack, tray-sealing and pouch lines designed for high-care environments.",
+      "he": "מירקות שלמים ועד סלטים ארוזים — קווי פלואו-פק, הלחמת מגשים ושקיות שתוכננו לסביבות היגייניות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "MAP atmosphere",
+        "Flow-wrap or tray seal",
+        "Gentle handling",
+        "High output"
+      ],
+      "he": [
+        "אווירה מוגנת (MAP)",
+        "פלואו-פק או הלחמת מגש",
+        "טיפול עדין",
+        "תפוקה גבוהה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Trays",
+        "Pouches",
+        "Flow-pack",
+        "Net bags"
+      ],
+      "he": [
+        "מגשים",
+        "שקיות",
+        "פלואו-פק",
+        "שקיות רשת"
+      ]
+    },
+    "icon": "leaf",
+    "image": "/products/vegetables.jpg"
+  },
+  {
+    "slug": "meat",
+    "name": {
+      "en": "Meat",
+      "he": "בשר"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Fresh and processed meat products.",
+      "he": "מוצרי בשר טריים ומעובדים."
+    },
+    "description": {
+      "en": "Meat packaging requires high-barrier materials, MAP or vacuum, and food-grade tray-sealing or thermoforming.",
+      "he": "אריזת בשר דורשת חומרים בעלי מחסום גבוה, MAP או ואקום, והלחמת מגש או טרמופורמינג בתקן מזון."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Vacuum or MAP",
+        "Tray sealing",
+        "High-barrier films",
+        "Sanitary design"
+      ],
+      "he": [
+        "ואקום או MAP",
+        "הלחמת מגשים",
+        "סרטים בעלי מחסום גבוה",
+        "תכנון סניטרי"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Trays",
+        "Vacuum bags",
+        "Thermoformed packs"
+      ],
+      "he": [
+        "מגשים",
+        "שקיות ואקום",
+        "אריזות טרמופורמינג"
+      ]
+    },
+    "icon": "beef",
+    "image": "/products/meat.jpg"
+  },
+  {
+    "slug": "fish",
+    "name": {
+      "en": "Fish",
+      "he": "דגים"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Fresh, smoked, or processed fish.",
+      "he": "דגים טריים, מעושנים או מעובדים."
+    },
+    "description": {
+      "en": "Fish requires sealed, sanitary packaging with vacuum or modified atmosphere — designed to maximize shelf life and freshness.",
+      "he": "דגים דורשים אריזה אטומה וסניטרית עם ואקום או אווירה מוגנת — שמתוכננת להאריך חיי מדף ולשמור על טריות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Vacuum or MAP",
+        "Sanitary construction",
+        "Tray or pouch sealing",
+        "Cold-chain compatibility"
+      ],
+      "he": [
+        "ואקום או MAP",
+        "בנייה סניטרית",
+        "הלחמת מגש או שקית",
+        "תאימות לקירור"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Vacuum bags",
+        "Trays",
+        "Skin-pack",
+        "Pouches"
+      ],
+      "he": [
+        "שקיות ואקום",
+        "מגשים",
+        "סקין-פק",
+        "שקיות"
+      ]
+    },
+    "icon": "fish",
+    "image": "/products/fish.jpg"
+  },
+  {
+    "slug": "pet-food",
+    "name": {
+      "en": "Pet Food",
+      "he": "מזון לחיות"
+    },
+    "group": "pet",
+    "shortDescription": {
+      "en": "Dry kibble, wet food, and treats for pets.",
+      "he": "מזון יבש, מזון רטוב וחטיפים לחיות מחמד."
+    },
+    "description": {
+      "en": "Pet food packaging spans large bags of kibble to single-serve pouches of wet food. We engineer high-throughput lines for both.",
+      "he": "אריזת מזון לחיות מחמד נעה מאריזות גדולות של מזון יבש ועד שקיות חד-פעמיות של מזון רטוב. אנו מהנדסים קווים בתפוקה גבוהה לשניהם."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Heavy-duty bagging",
+        "Wet-product filling",
+        "High output",
+        "Resealable closures"
+      ],
+      "he": [
+        "אריזה במשקל כבד",
+        "מילוי מוצרים רטובים",
+        "תפוקה גבוהה",
+        "סגירה חוזרת"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Stand-up pouches",
+        "Cans",
+        "Large bags",
+        "Sachets"
+      ],
+      "he": [
+        "שקיות עומדות",
+        "פחיות",
+        "שקים גדולים",
+        "סשה"
+      ]
+    },
+    "icon": "paw",
+    "image": "/products/pet-food.jpg"
+  },
+  {
+    "slug": "salads",
+    "name": {
+      "en": "Salads",
+      "he": "סלטים"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Hummus, tahini, eggplant, and prepared salads.",
+      "he": "חומוס, טחינה, חציל וסלטים מוכנים."
+    },
+    "description": {
+      "en": "Refrigerated salad packaging requires gentle filling, hygienic environments, and cups, tubs, or pouches with foil sealing.",
+      "he": "אריזת סלטים מקוררים דורשת מילוי עדין, סביבה היגיינית וכוסות, גביעים או שקיות עם הלחמת כסף."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Hygienic filling",
+        "Foil top-sealing",
+        "Cup or tub formats",
+        "Precise dosing"
+      ],
+      "he": [
+        "מילוי היגייני",
+        "הלחמת כסף",
+        "פורמטים של כוסות וגביעים",
+        "מינון מדויק"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Cups",
+        "Tubs",
+        "Pouches",
+        "Trays"
+      ],
+      "he": [
+        "כוסות",
+        "גביעים",
+        "שקיות",
+        "מגשים"
+      ]
+    },
+    "icon": "salad",
+    "image": "/products/salads.jpg"
+  },
+  {
+    "slug": "ready-meals",
+    "name": {
+      "en": "Ready Meals",
+      "he": "מנות מוכנות"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Pre-cooked and packaged meals.",
+      "he": "מנות מבושלות מראש ארוזות."
+    },
+    "description": {
+      "en": "Ready meal lines combine tray sealing, MAP, and labeling — with options for both chilled and frozen distribution.",
+      "he": "קווי מנות מוכנות משלבים הלחמת מגש, MAP ותיוג — עם אפשרויות הפצה למקוררים וקפואים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Tray sealing",
+        "MAP",
+        "Multi-compartment trays",
+        "Labeling integration"
+      ],
+      "he": [
+        "הלחמת מגש",
+        "MAP",
+        "מגשים עם תאים",
+        "אינטגרציית תיוג"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Trays",
+        "Pouches",
+        "Bowls"
+      ],
+      "he": [
+        "מגשים",
+        "שקיות",
+        "קעריות"
+      ]
+    },
+    "icon": "meal",
+    "image": "/products/ready-meals.jpg"
+  },
+  {
+    "slug": "tahini",
+    "name": {
+      "en": "Tahini",
+      "he": "טחינה"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Pure tahini, prepared tahini, and tahini-based products.",
+      "he": "טחינה גולמית, טחינה מוכנה ומוצרים על בסיס טחינה."
+    },
+    "description": {
+      "en": "Tahini is thick, oily and separates over time — requiring specialized filling and accurate dosing. We engineer lines tailored for tahini producers.",
+      "he": "טחינה היא צמיגה, שמנונית ונפרדת לאורך זמן — ודורשת מילוי ייעודי ומינון מדויק. אנו מהנדסים קווים שמותאמים ליצרני טחינה."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Viscous and oily liquid handling",
+        "Heated piping",
+        "Drip-free nozzles",
+        "Glass or plastic compatibility"
+      ],
+      "he": [
+        "טיפול בנוזל צמיג ושמנוני",
+        "צנרת מחוממת",
+        "חרירים ללא טפטוף",
+        "תאימות זכוכית או פלסטיק"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Jars",
+        "Bottles",
+        "Buckets",
+        "Squeeze pouches"
+      ],
+      "he": [
+        "צנצנות",
+        "בקבוקים",
+        "דליים",
+        "שקיות סחיטה"
+      ]
+    },
+    "icon": "tahini",
+    "image": "/products/tahini.jpg"
+  },
+  {
+    "slug": "spreads",
+    "name": {
+      "en": "Spreads",
+      "he": "ממרחים"
+    },
+    "group": "food",
+    "shortDescription": {
+      "en": "Chocolate spreads, nut butters, jams.",
+      "he": "ממרחי שוקולד, חמאות אגוזים וריבות."
+    },
+    "description": {
+      "en": "Spreads vary from runny jams to thick chocolate spreads — each requiring tuned filling technology for accurate, clean dosing.",
+      "he": "הממרחים נעים מריבות נוזליות ועד ממרחי שוקולד סמיכים — כל אחד דורש טכנולוגיית מילוי מכוונת למינון מדויק ונקי."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Viscous product handling",
+        "Heated tanks (when needed)",
+        "Glass jar compatibility",
+        "Tamper-evident lids"
+      ],
+      "he": [
+        "טיפול במוצר צמיג",
+        "מיכלים מחוממים (בעת הצורך)",
+        "תאימות לצנצנות זכוכית",
+        "מכסים עם חיווי פתיחה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Glass jars",
+        "Plastic jars",
+        "Squeeze tubes",
+        "Stick packs"
+      ],
+      "he": [
+        "צנצנות זכוכית",
+        "צנצנות פלסטיק",
+        "טובוסי סחיטה",
+        "סטיקים"
+      ]
+    },
+    "icon": "jar",
+    "image": "/products/spreads.jpg"
+  },
+  {
+    "slug": "bottles",
+    "name": {
+      "en": "Bottles",
+      "he": "בקבוקים"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Plastic and glass bottles for liquids and viscous products.",
+      "he": "בקבוקי פלסטיק וזכוכית לנוזלים ומוצרים צמיגים."
+    },
+    "description": {
+      "en": "Bottle filling is one of the most versatile packaging formats — we provide linear and rotary systems for nearly every liquid type and bottle size.",
+      "he": "מילוי בקבוקים הוא אחד הפורמטים הגמישים ביותר — אנו מספקים מערכות ליניאריות וסיבוביות כמעט לכל סוג נוזל וגודל בקבוק."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Multi-format flexibility",
+        "High accuracy filling",
+        "Capping integration",
+        "Quick changeover"
+      ],
+      "he": [
+        "גמישות פורמטים",
+        "מילוי מדויק",
+        "אינטגרציית סגירה",
+        "החלפת פורמטים מהירה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "PET bottles",
+        "Glass bottles",
+        "HDPE bottles"
+      ],
+      "he": [
+        "בקבוקי PET",
+        "בקבוקי זכוכית",
+        "בקבוקי HDPE"
+      ]
+    },
+    "icon": "bottle",
+    "image": "/products/bottles.jpg"
+  },
+  {
+    "slug": "cups",
+    "name": {
+      "en": "Cups",
+      "he": "כוסות"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Single-serve cups for dairy, salads, and snacks.",
+      "he": "כוסות חד-פעמיות למוצרי חלב, סלטים וחטיפים."
+    },
+    "description": {
+      "en": "Cup filling and sealing lines are designed for high-speed single-serve production — for yogurts, dips, and snack foods.",
+      "he": "קווי מילוי וסגירת כוסות מתוכננים לייצור חד-פעמי במהירות גבוהה — ליוגורטים, ממרחים וחטיפים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Cup denesting",
+        "Foil sealing",
+        "Lid placement",
+        "High output"
+      ],
+      "he": [
+        "הוצאת כוסות מהמערום",
+        "הלחמת כסף",
+        "הנחת מכסים",
+        "תפוקה גבוהה"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Plastic cups",
+        "Foil-sealed cups",
+        "Lidded cups"
+      ],
+      "he": [
+        "כוסות פלסטיק",
+        "כוסות עם הלחמת כסף",
+        "כוסות עם מכסה"
+      ]
+    },
+    "icon": "cup",
+    "image": "/products/cups.jpg"
+  },
+  {
+    "slug": "containers",
+    "name": {
+      "en": "Containers",
+      "he": "מכלים"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Rigid plastic containers and tubs.",
+      "he": "מכלי פלסטיק קשיחים וגביעים."
+    },
+    "description": {
+      "en": "Tub and container packaging for foods, chemicals, and industrial products — with options for top-seal, lid placement, and shrink banding.",
+      "he": "אריזת גביעים ומכלים למזון, כימיקלים ומוצרים תעשייתיים — עם אפשרויות הלחמה עליונה, הנחת מכסים ובד התכווצות."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Top-seal foil",
+        "Lid placement",
+        "Tamper-evident bands",
+        "Filling integration"
+      ],
+      "he": [
+        "הלחמת כסף עליונה",
+        "הנחת מכסים",
+        "רצועות חיווי פתיחה",
+        "אינטגרציית מילוי"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Plastic tubs",
+        "IML containers",
+        "Lidded containers"
+      ],
+      "he": [
+        "גביעי פלסטיק",
+        "מכלי IML",
+        "מכלים עם מכסים"
+      ]
+    },
+    "icon": "container",
+    "image": "/products/containers.jpg"
+  },
+  {
+    "slug": "jars",
+    "name": {
+      "en": "Jars",
+      "he": "צנצנות"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Glass and plastic jars for spreads, sauces, honey.",
+      "he": "צנצנות זכוכית ופלסטיק לממרחים, רטבים ודבש."
+    },
+    "description": {
+      "en": "Jar lines combine careful handling, accurate filling, twist-off or screw capping, and labeling — for premium retail presentation.",
+      "he": "קווי צנצנות משלבים טיפול זהיר, מילוי מדויק, סגירת TWIST-OFF או הברגה ותיוג — להצגה קמעונאית פרימיום."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Glass handling",
+        "Twist-off / screw caps",
+        "Vacuum sealing options",
+        "Labeling integration"
+      ],
+      "he": [
+        "טיפול בזכוכית",
+        "סגירות TWIST-OFF / הברגה",
+        "אפשרויות סגירה בוואקום",
+        "אינטגרציית תיוג"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Glass jars",
+        "Plastic jars",
+        "Mason jars"
+      ],
+      "he": [
+        "צנצנות זכוכית",
+        "צנצנות פלסטיק",
+        "צנצנות סטנדרטיות"
+      ]
+    },
+    "icon": "jar",
+    "image": "/products/jars.jpg"
+  },
+  {
+    "slug": "buckets",
+    "name": {
+      "en": "Buckets",
+      "he": "דליים"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Large-format buckets for bulk products.",
+      "he": "דליים בפורמט גדול למוצרי בולק."
+    },
+    "description": {
+      "en": "Bulk bucket filling for industrial buyers, food service, and HoReCa — with weight or volume control.",
+      "he": "מילוי דליי בולק לקונים תעשייתיים, פוד-סרוויס והוראקה — עם בקרת משקל או נפח."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Heavy-duty filling",
+        "Weight or volume control",
+        "Lid press",
+        "Pail handling"
+      ],
+      "he": [
+        "מילוי כבד",
+        "בקרת משקל או נפח",
+        "לחיצת מכסים",
+        "טיפול בדליים"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Plastic buckets",
+        "Metal pails",
+        "Lidded buckets"
+      ],
+      "he": [
+        "דליי פלסטיק",
+        "דליי מתכת",
+        "דליים עם מכסה"
+      ]
+    },
+    "icon": "bucket",
+    "image": "/products/buckets.jpg"
+  },
+  {
+    "slug": "stand-up-pouches",
+    "name": {
+      "en": "Stand-up Pouches",
+      "he": "שקיות עומדות"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Flexible stand-up pouches for liquids and solids.",
+      "he": "שקיות עומדות גמישות לנוזלים ומוצרים מוצקים."
+    },
+    "description": {
+      "en": "Pouch filling lines deliver low cost-per-unit and premium shelf appeal — for liquids, powders, granules, and viscous products.",
+      "he": "קווי מילוי שקיות מספקים עלות נמוכה ליחידה ומראה מדף פרימיום — לנוזלים, אבקות, גרגירים ומוצרים צמיגים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Pouch handling",
+        "Spout insertion (optional)",
+        "High-barrier films",
+        "Versatile filling"
+      ],
+      "he": [
+        "טיפול בשקיות",
+        "הכנסת פיה (אופציה)",
+        "סרטים בעלי מחסום גבוה",
+        "מילוי גמיש"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Spouted pouches",
+        "Zip-lock pouches",
+        "Standard stand-up pouches"
+      ],
+      "he": [
+        "שקיות עם פיה",
+        "שקיות עם רוכסן",
+        "שקיות עומדות סטנדרטיות"
+      ]
+    },
+    "icon": "pouch",
+    "image": "/products/stand-up-pouches.jpg"
+  },
+  {
+    "slug": "cardboards",
+    "name": {
+      "en": "Cardboards",
+      "he": "אריזות קרטון"
+    },
+    "group": "containers",
+    "shortDescription": {
+      "en": "Cardboard cartons, boxes, and case packaging.",
+      "he": "קרטונים, קופסאות ואריזת קייסים."
+    },
+    "description": {
+      "en": "Carton lines handle erecting, filling, sealing and case-packing — integrating seamlessly with primary packaging lines.",
+      "he": "קווי קרטון מטפלים בהקמה, מילוי, סגירה וקייס-פק — בשילוב חלק עם קווי האריזה הראשוניים."
+    },
+    "packagingNeeds": {
+      "en": [
+        "Carton erecting",
+        "Tray forming",
+        "Case packing",
+        "Glue or tape sealing"
+      ],
+      "he": [
+        "הקמת קרטונים",
+        "יצירת מגשים",
+        "אריזת קייסים",
+        "סגירה בדבק או סרט"
+      ]
+    },
+    "packagingTypes": {
+      "en": [
+        "Cartons",
+        "Trays",
+        "Cases",
+        "Sleeves"
+      ],
+      "he": [
+        "קרטונים",
+        "מגשים",
+        "קייסים",
+        "שרוולים"
+      ]
+    },
+    "icon": "box",
+    "image": "/products/cardboards.jpg"
+  }
+]

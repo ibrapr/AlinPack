@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "consultation",
+    "title": {
+      "en": "Packaging Consultation",
+      "he": "ייעוץ אריזה"
+    },
+    "description": {
+      "en": "Expert advice on packaging formats, machine selection, and line design — tailored to your product and budget.",
+      "he": "ייעוץ מומחה על פורמטים, בחירת מכונה ותכנון קו — מותאם למוצר ולתקציב."
+    },
+    "icon": "lightbulb"
+  },
+  {
+    "slug": "supply",
+    "title": {
+      "en": "Machine Supply",
+      "he": "אספקת מכונות"
+    },
+    "description": {
+      "en": "A wide catalog of filling, sealing, capping, and complete packaging line machines for any industry.",
+      "he": "קטלוג רחב של מכונות מילוי, הלחמה, סגירה וקווים שלמים לכל תעשייה."
+    },
+    "icon": "truck"
+  },
+  {
+    "slug": "custom",
+    "title": {
+      "en": "Custom Solutions",
+      "he": "פתרונות מותאמים אישית"
+    },
+    "description": {
+      "en": "We engineer custom-configured machines and full packaging lines around your exact product and throughput needs.",
+      "he": "אנו מהנדסים מכונות מוגדרות אישית וקווי אריזה שלמים לצרכים המדויקים שלכם."
+    },
+    "icon": "settings"
+  },
+  {
+    "slug": "support",
+    "title": {
+      "en": "Technical Support",
+      "he": "תמיכה טכנית"
+    },
+    "description": {
+      "en": "Fast technical support from engineers who know your machine inside and out.",
+      "he": "תמיכה טכנית מהירה ממהנדסים שמכירים את המכונה לעומק."
+    },
+    "icon": "lifebuoy"
+  },
+  {
+    "slug": "maintenance",
+    "title": {
+      "en": "Maintenance",
+      "he": "תחזוקה"
+    },
+    "description": {
+      "en": "Preventive maintenance programs that keep your line running at peak efficiency.",
+      "he": "תוכניות תחזוקה מונעות ששומרות על הקו ביעילות מקסימלית."
+    },
+    "icon": "wrench"
+  },
+  {
+    "slug": "spare",
+    "title": {
+      "en": "Spare Parts",
+      "he": "חלקי חילוף"
+    },
+    "description": {
+      "en": "Original spare parts in stock — minimizing downtime and keeping production moving.",
+      "he": "חלקים מקוריים במלאי — מצמצמים השבתות ושומרים על הייצור."
+    },
+    "icon": "package"
+  }
+]

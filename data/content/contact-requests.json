@@ -1,5 +1,16 @@
 [
   {
+    "id": "b46af232-e7d2-4fe9-962e-e784c8d875a7",
+    "createdAt": "2026-05-24T18:22:04.989Z",
+    "locale": "en",
+    "name": "Email Delivery Test",
+    "company": "AlinPack",
+    "phone": "+972500000000",
+    "email": "ibrapro26@gmail.com",
+    "product": "test",
+    "message": "Testing whether Resend returns emailed true."
+  },
+  {
     "id": "96139841-8fc2-4e5e-9a32-a3115c81592c",
     "createdAt": "2026-05-24T18:14:16.414Z",
     "locale": "en",

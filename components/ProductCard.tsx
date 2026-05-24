@@ -20,7 +20,7 @@ export default function ProductCard({ product, locale }: ProductCardProps) {
       href={`/${locale}/products/${product.slug}`}
       className="card card-hover group flex flex-col overflow-hidden"
     >
-      <div className="relative h-32 overflow-hidden bg-brand-gray-100 sm:h-36">
+      <div className="relative h-20 overflow-hidden bg-brand-gray-100 sm:h-24">
         {product.image ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
@@ -34,17 +34,17 @@ export default function ProductCard({ product, locale }: ProductCardProps) {
             <ProductIcon name={product.icon || 'box'} className="h-16 w-16" />
           </div>
         )}
-        <div className="absolute inset-x-0 bottom-0 h-14 bg-gradient-to-t from-black/45 to-transparent" />
-        <div className="absolute bottom-2.5 start-2.5 flex h-9 w-9 items-center justify-center rounded-lg bg-white/95 text-brand-red shadow-soft">
-          <ProductIcon name={product.icon || 'box'} className="h-4 w-4" />
+        <div className="absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-black/45 to-transparent" />
+        <div className="absolute bottom-2 start-2 flex h-8 w-8 items-center justify-center rounded-lg bg-white/95 text-brand-red shadow-soft">
+          <ProductIcon name={product.icon || 'box'} className="h-3.5 w-3.5" />
         </div>
-        <span className="absolute end-2.5 top-2.5 rounded-full bg-white/95 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-brand-gray-700 shadow-soft">
+        <span className="absolute end-2 top-2 rounded-full bg-white/95 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wider text-brand-gray-700 shadow-soft">
           {matchingMachines.length} {dict.products.card.machines}
         </span>
       </div>
 
-      <div className="flex flex-1 flex-col p-5">
-        <h3 className="text-lg font-bold leading-tight text-brand-black group-hover:text-brand-red transition-colors">
+      <div className="flex flex-1 flex-col p-4">
+        <h3 className="text-base font-bold leading-tight text-brand-black group-hover:text-brand-red transition-colors">
           {product.name[locale]}
         </h3>
         <p className="mt-1.5 line-clamp-2 text-sm text-brand-gray-600 leading-relaxed">

@@ -17,9 +17,14 @@ export default function ContactForm({ locale, defaultProduct }: ContactFormProps
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setStatus('sending');
-    // Simulated submit — in production this would POST to an API or form service.
     try {
-      await new Promise((r) => setTimeout(r, 900));
+      const form = new FormData(e.currentTarget);
+      form.append('locale', locale);
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        body: form,
+      });
+      if (!res.ok) throw new Error('Submit failed');
       setStatus('success');
       (e.target as HTMLFormElement).reset();
     } catch {

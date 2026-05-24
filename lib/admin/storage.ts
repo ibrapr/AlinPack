@@ -7,7 +7,8 @@ export type ContentFile =
   | 'products.json'
   | 'clients.json'
   | 'success-stories.json'
-  | 'services.json';
+  | 'services.json'
+  | 'contact-requests.json';
 
 const REPO_PATH_PREFIX = 'data/content';
 

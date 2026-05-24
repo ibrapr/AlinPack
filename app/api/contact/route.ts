@@ -16,7 +16,7 @@ interface ContactRequest {
   message: string;
 }
 
-const CONTACT_TO_EMAIL = 'ibrapro26@gmail.com';
+const CONTACT_TO_EMAIL = 'ibrahimqassem1012@gmail.com';
 const CONTACT_FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || 'Alin Pack Website <onboarding@resend.dev>';
 
 function clean(value: FormDataEntryValue | null): string {

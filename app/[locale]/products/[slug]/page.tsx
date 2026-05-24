@@ -63,7 +63,7 @@ export default function ProductDetailPage({
           </Link>
 
           <div className="mt-8 grid items-center gap-10 lg:grid-cols-12">
-            <div className="lg:col-span-8">
+            <div className="lg:col-span-9">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] backdrop-blur">
                 <ProductIcon name={product.icon || 'box'} className="h-3.5 w-3.5" />
                 {product.group}
@@ -90,8 +90,8 @@ export default function ProductDetailPage({
               </div>
             </div>
 
-            <div className="lg:col-span-4">
-              <div className="relative aspect-square overflow-hidden rounded-3xl border border-white/10 bg-brand-black shadow-card">
+            <div className="lg:col-span-3">
+              <div className="relative mx-auto aspect-square max-w-[220px] overflow-hidden rounded-2xl border border-white/10 bg-brand-black shadow-card sm:max-w-[260px] lg:max-w-none">
                 {product.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
@@ -110,13 +110,13 @@ export default function ProductDetailPage({
                     </div>
                   </>
                 )}
-                <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/70 to-transparent" />
-                <div className="absolute bottom-5 start-5 end-5 flex items-center justify-between gap-3 rounded-2xl border border-white/10 bg-black/50 px-4 py-3 backdrop-blur-xl">
-                  <p className="text-xs uppercase tracking-wider text-white/70 font-semibold">
+                <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-3 start-3 end-3 flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-black/50 px-3 py-2 backdrop-blur-xl">
+                  <p className="text-[10px] uppercase tracking-wider text-white/70 font-semibold">
                     {matchingMachines.length} {dict.products.card.machines}
                   </p>
-                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white text-brand-red">
-                    <ProductIcon name={product.icon || 'box'} className="h-4 w-4" />
+                  <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-white text-brand-red">
+                    <ProductIcon name={product.icon || 'box'} className="h-3.5 w-3.5" />
                   </div>
                 </div>
               </div>

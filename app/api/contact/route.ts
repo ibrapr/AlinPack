@@ -16,12 +16,58 @@ interface ContactRequest {
   message: string;
 }
 
+const CONTACT_TO_EMAIL = 'ibrapro26@gmail.com';
+const CONTACT_FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || 'Alin Pack Website <onboarding@resend.dev>';
+
 function clean(value: FormDataEntryValue | null): string {
   return String(value ?? '').trim();
 }
 
 function validEmail(value: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function emailText(request: ContactRequest): string {
+  return [
+    'New request from Alin Pack website',
+    '',
+    `Name: ${request.name}`,
+    `Company: ${request.company || '-'}`,
+    `Phone: ${request.phone}`,
+    `Email: ${request.email}`,
+    `Product / Machine: ${request.product || '-'}`,
+    `Language: ${request.locale}`,
+    `Submitted: ${request.createdAt}`,
+    '',
+    'Message:',
+    request.message,
+  ].join('\n');
+}
+
+async function sendEmail(request: ContactRequest): Promise<boolean> {
+  if (!process.env.RESEND_API_KEY) return false;
+
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      from: CONTACT_FROM_EMAIL,
+      to: [CONTACT_TO_EMAIL],
+      reply_to: request.email,
+      subject: `New Alin Pack request from ${request.name}`,
+      text: emailText(request),
+    }),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Email send failed: ${res.status} ${text}`);
+  }
+
+  return true;
 }
 
 export async function POST(req: NextRequest) {
@@ -59,5 +105,7 @@ export async function POST(req: NextRequest) {
     `chore(contact): add request from ${request.name}`,
   );
 
-  return NextResponse.json({ ok: true });
+  const emailed = await sendEmail(request);
+
+  return NextResponse.json({ ok: true, emailed, to: CONTACT_TO_EMAIL });
 }

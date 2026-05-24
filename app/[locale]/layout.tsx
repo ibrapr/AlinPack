@@ -65,7 +65,7 @@ export default function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} className={`${inter.variable} ${heebo.variable}`}>
-      <body dir={dir} className="min-h-screen bg-white text-brand-black antialiased">
+      <body dir={dir} className="public-site min-h-screen bg-brand-black text-white antialiased">
         <OrganizationJsonLd />
         <Navbar locale={locale} />
         <main>{children}</main>

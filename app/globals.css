@@ -169,3 +169,105 @@ body[dir='rtl'] {
 [dir='rtl'] .rtl-flip {
   transform: scaleX(-1);
 }
+
+/* Public dark brand theme */
+.public-site {
+  background: #0A0A0A;
+  color: #FAFAFA;
+}
+
+.public-site main,
+.public-site .bg-white,
+.public-site .bg-brand-gray-50,
+.public-site .bg-brand-gray-100,
+.public-site .bg-brand-gray-200 {
+  background-color: #0A0A0A !important;
+}
+
+.public-site .card,
+.public-site .bg-white,
+.public-site .bg-white\/90,
+.public-site .bg-white\/95,
+.public-site .bg-brand-gray-50,
+.public-site .bg-brand-gray-100 {
+  background-color: #141414 !important;
+}
+
+.public-site .bg-gradient-hero {
+  background-image: linear-gradient(135deg, #050505 0%, #0A0A0A 58%, #2A0505 100%) !important;
+}
+
+.public-site .text-brand-black,
+.public-site .hover\:text-brand-black:hover {
+  color: #FAFAFA !important;
+}
+
+.public-site .text-brand-gray-700,
+.public-site .text-brand-gray-600,
+.public-site .text-brand-gray-500 {
+  color: #D4D4D8 !important;
+}
+
+.public-site .text-brand-gray-400 {
+  color: #A1A1AA !important;
+}
+
+.public-site .border-brand-gray-100,
+.public-site .border-brand-gray-200,
+.public-site .border-brand-gray-300,
+.public-site .border-brand-gray-200\/60 {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.public-site .divide-brand-gray-100 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.public-site .shadow-soft,
+.public-site .shadow-card {
+  box-shadow: 0 18px 45px -24px rgba(225, 6, 0, 0.35), 0 12px 32px -24px rgba(0, 0, 0, 0.9) !important;
+}
+
+.public-site .btn-outline,
+.public-site .btn-white,
+.public-site input,
+.public-site textarea,
+.public-site select {
+  background-color: #141414 !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  color: #FAFAFA !important;
+}
+
+.public-site input::placeholder,
+.public-site textarea::placeholder {
+  color: #71717A !important;
+}
+
+.public-site .hover\:bg-brand-gray-50:hover,
+.public-site .hover\:bg-brand-gray-100:hover,
+.public-site .hover\:bg-white\/10:hover {
+  background-color: rgba(225, 6, 0, 0.12) !important;
+}
+
+.public-site .bg-white\/5 {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+.public-site .bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.public-site .bg-black\/40,
+.public-site .bg-black\/50 {
+  background-color: rgba(0, 0, 0, 0.72) !important;
+}
+
+.public-site .bg-brand-red\/10,
+.public-site .hover\:bg-brand-red\/5:hover {
+  background-color: rgba(225, 6, 0, 0.14) !important;
+}
+
+.public-site .gradient-mask-x {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+}

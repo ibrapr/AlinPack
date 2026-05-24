@@ -45,7 +45,8 @@ function emailText(request: ContactRequest): string {
 }
 
 async function sendEmail(request: ContactRequest): Promise<boolean> {
-  if (!process.env.RESEND_API_KEY) return false;
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey || apiKey === 're_xxx') return false;
 
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -68,6 +69,21 @@ async function sendEmail(request: ContactRequest): Promise<boolean> {
   }
 
   return true;
+}
+
+async function saveRequest(request: ContactRequest): Promise<boolean> {
+  try {
+    const existing = await readContent<ContactRequest[]>('contact-requests.json').catch(() => []);
+    await writeContent(
+      'contact-requests.json',
+      [request, ...existing].slice(0, 500),
+      `chore(contact): add request from ${request.name}`,
+    );
+    return true;
+  } catch (error) {
+    console.error('Contact request save failed:', error);
+    return false;
+  }
 }
 
 export async function POST(req: NextRequest) {
@@ -98,14 +114,21 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Please enter a valid email address.' }, { status: 400 });
   }
 
-  const existing = await readContent<ContactRequest[]>('contact-requests.json').catch(() => []);
-  await writeContent(
-    'contact-requests.json',
-    [request, ...existing].slice(0, 500),
-    `chore(contact): add request from ${request.name}`,
-  );
+  const saved = await saveRequest(request);
+  let emailed = false;
 
-  const emailed = await sendEmail(request);
+  try {
+    emailed = await sendEmail(request);
+  } catch (error) {
+    console.error('Contact request email failed:', error);
+  }
 
-  return NextResponse.json({ ok: true, emailed, to: CONTACT_TO_EMAIL });
+  if (!saved && !emailed) {
+    return NextResponse.json(
+      { error: 'Request could not be sent. Please contact us on WhatsApp.' },
+      { status: 500 },
+    );
+  }
+
+  return NextResponse.json({ ok: true, emailed, saved, to: CONTACT_TO_EMAIL });
 }

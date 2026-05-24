@@ -41,7 +41,6 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
       <PageHero
         eyebrow={dict.about.hero.eyebrow}
         title={dict.about.hero.title}
-        subtitle={dict.about.hero.subtitle}
       />
 
       <section className="section bg-white">
@@ -49,9 +48,8 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
           <div className="lg:col-span-7">
             <p className="eyebrow">— {dict.about.story.title}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.about.story.title}</h2>
-            <div className="mt-6 space-y-5 text-lg leading-relaxed text-brand-gray-600">
+            <div className="mt-5 max-w-2xl text-base leading-relaxed text-brand-gray-600">
               <p>{dict.about.story.p1}</p>
-              <p>{dict.about.story.p2}</p>
             </div>
           </div>
 
@@ -61,7 +59,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
               <p className="relative text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
                 {dict.about.mission.title}
               </p>
-              <p className="relative mt-4 text-xl font-medium leading-relaxed text-balance">
+              <p className="relative mt-4 line-clamp-3 text-lg font-medium leading-relaxed text-balance">
                 "{dict.about.mission.text}"
               </p>
             </div>
@@ -70,9 +68,6 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
               <p className="text-6xl font-bold text-brand-black">2007</p>
               <p className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] text-brand-red">
                 {dict.common.since}
-              </p>
-              <p className="mt-4 text-sm text-brand-gray-600">
-                {dict.meta.defaultDescription}
               </p>
             </div>
           </aside>
@@ -84,7 +79,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
           <div className="max-w-2xl">
             <h2 className="heading-lg text-balance">{dict.about.values.title}</h2>
           </div>
-          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {values.map(({ icon: Icon, key }) => (
               <div key={key} className="card card-hover p-6">
                 <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-red/10 text-brand-red">
@@ -93,7 +88,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
                 <h3 className="mt-5 text-lg font-bold text-brand-black">
                   {dict.about.values.items[key].title}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-brand-gray-600">
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-brand-gray-600">
                   {dict.about.values.items[key].description}
                 </p>
               </div>
@@ -109,7 +104,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
             <h2 className="mt-3 heading-lg text-balance">{dict.about.process.title}</h2>
           </div>
 
-          <ol className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
+          <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {steps.map(({ icon: Icon, key }, idx) => (
               <li key={key} className="relative rounded-2xl border border-brand-gray-200 bg-white p-6 transition-colors hover:border-brand-red">
                 <div className="flex items-center justify-between">
@@ -121,7 +116,7 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
                 <h3 className="mt-5 text-base font-bold text-brand-black">
                   {dict.about.process.steps[key].title}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-brand-gray-600">
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-brand-gray-600">
                   {dict.about.process.steps[key].description}
                 </p>
               </li>

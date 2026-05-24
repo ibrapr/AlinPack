@@ -14,8 +14,8 @@ export default function Hero({ locale }: { locale: Locale }) {
       <div className="absolute -top-32 -start-32 h-96 w-96 rounded-full bg-brand-red/20 blur-3xl" aria-hidden="true" />
       <div className="absolute -bottom-32 -end-20 h-96 w-96 rounded-full bg-brand-red/10 blur-3xl" aria-hidden="true" />
 
-      <div className="container-wide relative pt-12 pb-20 sm:pt-16 sm:pb-28 lg:pt-20 lg:pb-32">
-        <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-8">
+      <div className="container-wide relative pt-12 pb-14 sm:pt-16 sm:pb-18 lg:pt-20 lg:pb-24">
+        <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-7 animate-fade-in-up">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-white backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-brand-red" />
@@ -31,11 +31,11 @@ export default function Hero({ locale }: { locale: Locale }) {
               </span>
             </h1>
 
-            <p className="mt-6 max-w-2xl text-lg text-brand-gray-300 leading-relaxed text-balance">
+            <p className="mt-5 max-w-xl text-base text-brand-gray-300 leading-relaxed text-balance">
               {dict.home.hero.subtitle}
             </p>
 
-            <div className="mt-9 flex flex-wrap items-center gap-3">
+            <div className="mt-7 flex flex-wrap items-center gap-3">
               <Link href={`/${locale}/contact`} className="btn-primary text-base px-7 py-3.5">
                 {dict.home.hero.ctaQuote}
                 <ArrowRight className="h-4 w-4 rtl-flip" />
@@ -57,7 +57,7 @@ export default function Hero({ locale }: { locale: Locale }) {
               </a>
             </div>
 
-            <div className="mt-12 grid grid-cols-3 gap-6 sm:gap-10 max-w-xl">
+            <div className="mt-9 grid grid-cols-3 gap-5 sm:gap-8 max-w-lg">
               <Stat number="18+" label={dict.home.stats.items.years} />
               <Stat number="500+" label={dict.home.stats.items.machines} />
               <Stat number="24" label={dict.home.stats.items.industries} />
@@ -75,9 +75,6 @@ export default function Hero({ locale }: { locale: Locale }) {
                       <ShieldCheck className="h-5 w-5" />
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-wider text-white/60 font-semibold">
-                        ISO-grade engineering
-                      </p>
                       <p className="text-sm font-semibold text-white">
                         Built for production reliability
                       </p>
@@ -104,7 +101,7 @@ export default function Hero({ locale }: { locale: Locale }) {
 function Stat({ number, label }: { number: string; label: string }) {
   return (
     <div>
-      <p className="text-3xl sm:text-4xl font-bold text-white">{number}</p>
+      <p className="text-2xl sm:text-3xl font-bold text-white">{number}</p>
       <p className="mt-1 text-xs sm:text-sm font-medium text-brand-gray-400 leading-tight">{label}</p>
     </div>
   );

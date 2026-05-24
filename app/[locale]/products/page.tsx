@@ -26,7 +26,6 @@ export default function ProductsPage({ params }: { params: { locale: string } })
       <PageHero
         eyebrow={dict.products.hero.eyebrow}
         title={dict.products.hero.title}
-        subtitle={dict.products.hero.subtitle}
       />
 
       <section className="section bg-brand-gray-50">

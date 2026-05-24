@@ -34,24 +34,23 @@ export default function ServicesPage({ params }: { params: { locale: string } })
       <PageHero
         eyebrow={dict.services.hero.eyebrow}
         title={dict.services.hero.title}
-        subtitle={dict.services.hero.subtitle}
       />
 
       <section className="section bg-white">
         <div className="container-wide">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {items.map(({ icon: Icon, key }, idx) => (
-              <article key={key} className="card card-hover p-7 group">
+              <article key={key} className="card card-hover p-6 group">
                 <div className="flex items-start justify-between">
                   <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-black text-white transition-colors group-hover:bg-brand-red">
                     <Icon className="h-7 w-7" />
                   </div>
                   <span className="text-3xl font-extrabold text-brand-gray-200">0{idx + 1}</span>
                 </div>
-                <h3 className="mt-6 text-xl font-bold text-brand-black group-hover:text-brand-red transition-colors">
+                <h3 className="mt-5 text-lg font-bold text-brand-black group-hover:text-brand-red transition-colors">
                   {dict.services.items[key].title}
                 </h3>
-                <p className="mt-3 leading-relaxed text-brand-gray-600">
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-brand-gray-600">
                   {dict.services.items[key].description}
                 </p>
               </article>

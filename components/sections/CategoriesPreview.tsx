@@ -22,7 +22,6 @@ export default function CategoriesPreview({ locale }: { locale: Locale }) {
           <div className="max-w-2xl">
             <p className="eyebrow">{dict.home.categories.eyebrow}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.home.categories.title}</h2>
-            <p className="mt-4 body-lg">{dict.home.categories.subtitle}</p>
           </div>
           <Link href={`/${locale}/products`} className="btn-outline self-start sm:self-auto">
             {dict.home.categories.cta}
@@ -30,7 +29,7 @@ export default function CategoriesPreview({ locale }: { locale: Locale }) {
           </Link>
         </div>
 
-        <div className="mt-12 grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+        <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
           {previewProducts.map((product) => {
             const count = getMachinesByProduct(product.slug).length;
             return (

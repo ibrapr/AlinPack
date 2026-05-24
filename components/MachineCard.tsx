@@ -38,7 +38,7 @@ export default function MachineCard({ machine, locale, compact = false }: Machin
         <h3 className="text-lg font-bold leading-tight tracking-tight text-brand-black group-hover:text-brand-red transition-colors">
           <Link href={`/${locale}/machines/${machine.slug}`}>{machine.name[locale]}</Link>
         </h3>
-        <p className="mt-2 line-clamp-2 text-sm text-brand-gray-600 leading-relaxed">
+        <p className="mt-2 line-clamp-1 text-sm text-brand-gray-600 leading-relaxed">
           {machine.shortDescription[locale]}
         </p>
 

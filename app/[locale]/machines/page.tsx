@@ -26,7 +26,6 @@ export default function MachinesPage({ params }: { params: { locale: string } })
       <PageHero
         eyebrow={dict.machines.hero.eyebrow}
         title={dict.machines.hero.title}
-        subtitle={dict.machines.hero.subtitle}
       />
 
       <section className="section bg-brand-gray-50">

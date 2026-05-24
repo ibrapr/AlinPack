@@ -17,7 +17,7 @@ export default function CTASection({ locale, title, subtitle, cta }: CTASectionP
   return (
     <section className="section">
       <div className="container-wide">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-hero p-8 sm:p-12 lg:p-16 text-white">
+        <div className="relative overflow-hidden rounded-3xl bg-gradient-hero p-7 sm:p-9 lg:p-12 text-white">
           <div className="absolute inset-0 bg-grid-pattern opacity-[0.05]" />
           <div className="absolute -top-32 -end-32 h-72 w-72 rounded-full bg-brand-red/25 blur-3xl" />
           <div className="absolute -bottom-32 -start-32 h-72 w-72 rounded-full bg-brand-red/15 blur-3xl" />
@@ -27,12 +27,9 @@ export default function CTASection({ locale, title, subtitle, cta }: CTASectionP
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
                 {dict.meta.tagline}
               </p>
-              <h2 className="mt-4 heading-lg text-white text-balance">
+              <h2 className="mt-3 heading-md text-white text-balance">
                 {title || dict.home.ctaSection.title}
               </h2>
-              <p className="mt-5 max-w-2xl text-lg text-brand-gray-300 text-balance">
-                {subtitle || dict.home.ctaSection.subtitle}
-              </p>
             </div>
             <div className="lg:col-span-5 flex flex-col gap-3 lg:items-end">
               <Link href={`/${locale}/contact`} className="btn-primary text-base px-7 py-3.5 w-full sm:w-auto justify-center">

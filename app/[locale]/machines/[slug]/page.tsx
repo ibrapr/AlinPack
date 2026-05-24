@@ -74,7 +74,7 @@ export default function MachineDetailPage({
                 {machine.category}
               </div>
               <h1 className="mt-5 heading-xl text-balance">{machine.name[locale]}</h1>
-              <p className="mt-5 max-w-2xl text-lg text-brand-gray-300 leading-relaxed">
+              <p className="mt-5 max-w-xl text-base text-brand-gray-300 leading-relaxed">
                 {machine.shortDescription[locale]}
               </p>
 
@@ -131,7 +131,7 @@ export default function MachineDetailPage({
         <div className="container-wide grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-8">
             <h2 className="heading-md">{dict.machineDetail.overview}</h2>
-            <p className="mt-5 text-lg leading-relaxed text-brand-gray-600">
+            <p className="mt-4 max-w-3xl text-base leading-relaxed text-brand-gray-600">
               {machine.description[locale]}
             </p>
 

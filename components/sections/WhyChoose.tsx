@@ -18,7 +18,6 @@ export default function WhyChoose({ locale }: { locale: Locale }) {
           <div className="lg:col-span-5">
             <p className="eyebrow">{dict.home.why.eyebrow}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.home.why.title}</h2>
-            <p className="mt-5 body-lg text-balance">{dict.home.why.subtitle}</p>
 
             <div className="mt-8 hidden lg:block">
               <div className="relative h-64 rounded-3xl bg-gradient-to-br from-brand-black to-brand-black-soft overflow-hidden">
@@ -49,7 +48,7 @@ export default function WhyChoose({ locale }: { locale: Locale }) {
                   <h3 className="mt-5 text-lg font-bold text-brand-black">
                     {dict.home.why.items[key].title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-brand-gray-600">
+                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-brand-gray-600">
                     {dict.home.why.items[key].description}
                   </p>
                 </div>

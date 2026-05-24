@@ -28,7 +28,6 @@ export default function ClientsPage({ params }: { params: { locale: string } }) 
       <PageHero
         eyebrow={dict.clients.hero.eyebrow}
         title={dict.clients.hero.title}
-        subtitle={dict.clients.hero.subtitle}
       />
 
       <ClientLogos locale={locale} title={dict.clients.logos.title} variant="grid" />
@@ -38,10 +37,9 @@ export default function ClientsPage({ params }: { params: { locale: string } }) 
           <div className="max-w-2xl">
             <p className="eyebrow">— {dict.clients.stories.title}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.clients.stories.title}</h2>
-            <p className="mt-4 body-lg">{dict.clients.stories.subtitle}</p>
           </div>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+          <div className="mt-8 grid gap-5 lg:grid-cols-3">
             {successStories.map((story, idx) => (
               <article key={story.slug} className="card card-hover overflow-hidden flex flex-col">
                 <div className="relative aspect-[5/3] bg-gradient-to-br from-brand-black to-brand-black-soft overflow-hidden">
@@ -57,7 +55,7 @@ export default function ClientsPage({ params }: { params: { locale: string } }) 
                 </div>
                 <div className="p-6 flex-1 flex flex-col">
                   <h3 className="text-lg font-bold text-brand-black">{story.title[locale]}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-brand-gray-600 flex-1">
+                  <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-brand-gray-600 flex-1">
                     {story.description[locale]}
                   </p>
                 </div>
@@ -79,9 +77,6 @@ export default function ClientsPage({ params }: { params: { locale: string } }) 
                   <Handshake className="h-7 w-7" />
                 </div>
                 <h2 className="mt-6 heading-lg text-white text-balance">{dict.clients.partner.title}</h2>
-                <p className="mt-4 max-w-2xl text-lg text-brand-gray-300 text-balance">
-                  {dict.clients.partner.subtitle}
-                </p>
               </div>
               <div className="lg:col-span-4 lg:text-end">
                 <Link href={`/${locale}/contact`} className="btn-primary text-base px-7 py-3.5">

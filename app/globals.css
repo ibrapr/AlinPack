@@ -85,7 +85,7 @@ body[dir='rtl'] {
   }
 
   .body-lg {
-    @apply text-lg leading-relaxed text-brand-gray-600;
+    @apply text-base leading-relaxed text-brand-gray-600;
   }
 
   .body {
@@ -125,11 +125,11 @@ body[dir='rtl'] {
   }
 
   .section {
-    @apply py-16 sm:py-20 md:py-24 lg:py-28;
+    @apply py-12 sm:py-14 md:py-16 lg:py-20;
   }
 
   .section-sm {
-    @apply py-12 sm:py-16;
+    @apply py-8 sm:py-10;
   }
 
   .link-underline {

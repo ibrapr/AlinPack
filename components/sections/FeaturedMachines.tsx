@@ -16,7 +16,6 @@ export default function FeaturedMachines({ locale }: { locale: Locale }) {
           <div className="max-w-2xl">
             <p className="eyebrow">{dict.home.featured.eyebrow}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.home.featured.title}</h2>
-            <p className="mt-4 body-lg">{dict.home.featured.subtitle}</p>
           </div>
           <Link href={`/${locale}/machines`} className="btn-outline self-start sm:self-auto">
             {dict.home.featured.cta}
@@ -24,7 +23,7 @@ export default function FeaturedMachines({ locale }: { locale: Locale }) {
           </Link>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {machines.map((m) => (
             <MachineCard key={m.slug} machine={m} locale={locale} />
           ))}

@@ -47,7 +47,7 @@ export default function ProductCard({ product, locale }: ProductCardProps) {
         <h3 className="text-base font-bold leading-tight text-brand-black group-hover:text-brand-red transition-colors">
           {product.name[locale]}
         </h3>
-        <p className="mt-1.5 line-clamp-2 text-sm text-brand-gray-600 leading-relaxed">
+        <p className="mt-1.5 line-clamp-1 text-sm text-brand-gray-600 leading-relaxed">
           {product.shortDescription[locale]}
         </p>
 

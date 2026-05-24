@@ -17,10 +17,9 @@ export default function TrustSection({ locale }: { locale: Locale }) {
         <div className="max-w-2xl">
           <p className="eyebrow">— {dict.home.trust.title}</p>
           <h2 className="mt-3 heading-lg text-balance">{dict.home.trust.title}</h2>
-          <p className="mt-4 body-lg text-balance">{dict.home.trust.subtitle}</p>
         </div>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {items.map(({ icon: Icon, key }) => (
             <div key={key} className="card p-6 sm:p-7 card-hover">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-red/10 text-brand-red">
@@ -29,7 +28,7 @@ export default function TrustSection({ locale }: { locale: Locale }) {
               <h3 className="mt-5 text-lg font-bold text-brand-black">
                 {dict.home.trust.items[key].title}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-brand-gray-600">
+              <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-brand-gray-600">
                 {dict.home.trust.items[key].description}
               </p>
             </div>

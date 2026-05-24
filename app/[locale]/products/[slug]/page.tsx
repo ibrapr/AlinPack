@@ -69,7 +69,7 @@ export default function ProductDetailPage({
                 {product.group}
               </div>
               <h1 className="mt-5 heading-xl text-balance">{product.name[locale]}</h1>
-              <p className="mt-5 max-w-2xl text-lg text-brand-gray-300 leading-relaxed">
+              <p className="mt-5 max-w-xl text-base text-brand-gray-300 leading-relaxed">
                 {product.shortDescription[locale]}
               </p>
 
@@ -129,7 +129,7 @@ export default function ProductDetailPage({
         <div className="container-wide grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <h2 className="heading-md">{dict.productDetail.overview}</h2>
-            <p className="mt-5 text-lg leading-relaxed text-brand-gray-600">
+            <p className="mt-4 max-w-3xl text-base leading-relaxed text-brand-gray-600">
               {product.description[locale]}
             </p>
 
@@ -173,7 +173,6 @@ export default function ProductDetailPage({
           <div className="max-w-2xl">
             <p className="eyebrow">— {dict.productDetail.machines}</p>
             <h2 className="mt-3 heading-lg text-balance">{dict.productDetail.machines}</h2>
-            <p className="mt-4 body-lg">{dict.productDetail.machinesSubtitle}</p>
           </div>
 
           {matchingMachines.length === 0 ? (

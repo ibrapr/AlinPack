@@ -7,7 +7,6 @@ import FeaturedMachines from '@/components/sections/FeaturedMachines';
 import WhyChoose from '@/components/sections/WhyChoose';
 import StatsSection from '@/components/sections/StatsSection';
 import ClientLogos from '@/components/sections/ClientLogos';
-import Testimonials from '@/components/sections/Testimonials';
 import CTASection from '@/components/sections/CTASection';
 import { getDictionary } from '@/i18n/getDictionary';
 
@@ -25,7 +24,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       <WhyChoose locale={locale} />
       <StatsSection locale={locale} />
       <ClientLogos locale={locale} title={dict.clients.logos.title} />
-      <Testimonials locale={locale} />
       <CTASection locale={locale} />
     </>
   );

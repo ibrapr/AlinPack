@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowRight } from 'lucide-react';
 import { getDictionary } from '@/i18n/getDictionary';
+import { locales, localeNames } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
 import { cn } from '@/lib/utils';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -51,6 +52,16 @@ export default function Navbar({ locale }: NavbarProps) {
   const isActive = (href: string) => {
     if (href === `/${locale}`) return pathname === href;
     return pathname?.startsWith(href);
+  };
+
+  const switchPath = (target: Locale) => {
+    const segments = (pathname || '/').split('/');
+    if (segments[1] && (locales as readonly string[]).includes(segments[1])) {
+      segments[1] = target;
+    } else {
+      segments.splice(1, 0, target);
+    }
+    return segments.join('/') || `/${target}`;
   };
 
   const onDark = !scrolled && !open;
@@ -146,9 +157,25 @@ export default function Navbar({ locale }: NavbarProps) {
             ))}
           </nav>
 
-          <div className="mt-6 flex items-center justify-between gap-3 border-t border-brand-gray-200 pt-6">
-            <LanguageSwitcher locale={locale} />
-            <Link href={`/${locale}/contact`} className="btn-primary flex-1 justify-center">
+          <div className="mt-6 border-t border-brand-gray-200 pt-6">
+            <div className="grid grid-cols-2 gap-2">
+              {locales.map((l) => (
+                <Link
+                  key={l}
+                  href={switchPath(l)}
+                  className={cn(
+                    'inline-flex items-center justify-center rounded-xl border px-4 py-3 text-sm font-bold transition-colors',
+                    l === locale
+                      ? 'border-brand-red bg-brand-red text-white'
+                      : 'border-white/15 bg-white/5 text-white hover:border-brand-red hover:text-brand-red',
+                  )}
+                >
+                  {localeNames[l]}
+                </Link>
+              ))}
+            </div>
+
+            <Link href={`/${locale}/contact`} className="btn-primary mt-3 w-full justify-center">
               {dict.nav.requestQuote}
             </Link>
           </div>

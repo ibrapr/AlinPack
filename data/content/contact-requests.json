@@ -1,5 +1,16 @@
 [
   {
+    "id": "ed42b80d-4d3d-42af-8dfe-3af101d4b12e",
+    "createdAt": "2026-05-24T18:33:24.068Z",
+    "locale": "en",
+    "name": "Email Diagnostic Test",
+    "company": "AlinPack",
+    "phone": "+972500000000",
+    "email": "ibrapro26@gmail.com",
+    "product": "test",
+    "message": "Testing diagnostic response after env setup."
+  },
+  {
     "id": "df14dfb9-ed8c-469d-a5c2-059635266814",
     "createdAt": "2026-05-24T18:30:53.515Z",
     "locale": "en",

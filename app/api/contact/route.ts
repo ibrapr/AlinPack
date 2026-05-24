@@ -44,9 +44,11 @@ function emailText(request: ContactRequest): string {
   ].join('\n');
 }
 
-async function sendEmail(request: ContactRequest): Promise<boolean> {
+async function sendEmail(request: ContactRequest): Promise<{ sent: boolean; error?: string }> {
   const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey || apiKey === 're_xxx') return false;
+  if (!apiKey || apiKey === 're_xxx') {
+    return { sent: false, error: 'RESEND_API_KEY is missing or still set to the placeholder.' };
+  }
 
   const res = await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -65,10 +67,10 @@ async function sendEmail(request: ContactRequest): Promise<boolean> {
 
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`Email send failed: ${res.status} ${text}`);
+    return { sent: false, error: `Resend rejected the email: ${res.status} ${text}` };
   }
 
-  return true;
+  return { sent: true };
 }
 
 async function saveRequest(request: ContactRequest): Promise<boolean> {
@@ -116,11 +118,15 @@ export async function POST(req: NextRequest) {
 
   const saved = await saveRequest(request);
   let emailed = false;
+  let emailError: string | undefined;
 
   try {
-    emailed = await sendEmail(request);
+    const result = await sendEmail(request);
+    emailed = result.sent;
+    emailError = result.error;
   } catch (error) {
     console.error('Contact request email failed:', error);
+    emailError = error instanceof Error ? error.message : 'Unknown email error.';
   }
 
   if (!saved && !emailed) {
@@ -130,5 +136,5 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  return NextResponse.json({ ok: true, emailed, saved, to: CONTACT_TO_EMAIL });
+  return NextResponse.json({ ok: true, emailed, saved, to: CONTACT_TO_EMAIL, emailError });
 }

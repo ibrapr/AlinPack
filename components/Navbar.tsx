@@ -74,7 +74,7 @@ export default function Navbar({ locale }: NavbarProps) {
         scrolled || open ? 'bg-white border-b border-brand-gray-200 shadow-soft' : 'bg-white',
       )}
     >
-      <div className="container-wide relative flex h-20 items-center justify-between gap-4">
+      <div className="relative mx-auto flex h-20 w-full max-w-none items-center justify-between gap-4 px-6 sm:px-8 lg:px-12 xl:px-20">
         <nav className="absolute left-0 top-1/2 hidden -translate-y-1/2 items-center gap-12 lg:flex xl:gap-16">
           {navLeft.map((item) => (
             <Link
@@ -97,7 +97,7 @@ export default function Navbar({ locale }: NavbarProps) {
 
         <Link
           href={`/${locale}`}
-          className="absolute start-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2"
+          className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2"
           aria-label="Alin Pack"
         >
           <Logo dark={onDark} priority />

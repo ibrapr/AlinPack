@@ -75,7 +75,7 @@ export default function Navbar({ locale }: NavbarProps) {
       )}
     >
       <div className="container-wide relative flex h-20 items-center justify-between gap-4">
-        <nav className="hidden lg:flex w-[42%] items-center justify-end gap-12 xl:gap-16">
+        <nav className="absolute left-0 top-1/2 hidden -translate-y-1/2 items-center gap-12 lg:flex xl:gap-16">
           {navLeft.map((item) => (
             <Link
               key={item.href}
@@ -103,7 +103,7 @@ export default function Navbar({ locale }: NavbarProps) {
           <Logo dark={onDark} priority />
         </Link>
 
-        <div className="hidden lg:flex w-[42%] items-center justify-start gap-8 xl:gap-10">
+        <div className="absolute right-0 top-1/2 hidden -translate-y-1/2 items-center gap-8 lg:flex xl:gap-10">
           <nav className="flex items-center gap-12 xl:gap-16">
             {navRight.map((item) => (
               <Link

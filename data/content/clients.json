@@ -1,98 +1,122 @@
 [
   {
-    "name": "Premium Dairy Co.",
-    "industry": {
-      "en": "Dairy",
-      "he": "מוצרי חלב"
-    },
-    "image": "/products/dairy.jpg"
+    "name": "Osem",
+    "industry": { "en": "Food", "he": "מזון" }
   },
   {
-    "name": "Mediterranean Foods",
-    "industry": {
-      "en": "Sauces & Spreads",
-      "he": "רטבים וממרחים"
-    },
-    "image": "/products/sauces.jpg"
+    "name": "Tnuva",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
   },
   {
-    "name": "Galilee Honey",
-    "industry": {
-      "en": "Honey",
-      "he": "דבש"
-    },
-    "image": "/products/honey.jpg"
+    "name": "Nespresso",
+    "industry": { "en": "Coffee", "he": "קפה" }
   },
   {
-    "name": "Roasted Bean Co.",
-    "industry": {
-      "en": "Coffee",
-      "he": "קפה"
-    },
-    "image": "/products/coffee.jpg"
+    "name": "Muller",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
   },
   {
-    "name": "Pure Tahini",
-    "industry": {
-      "en": "Tahini",
-      "he": "טחינה"
-    },
-    "image": "/products/tahini.jpg"
+    "name": "PepsiCo",
+    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" }
   },
   {
-    "name": "CleanLine Industries",
-    "industry": {
-      "en": "Detergents",
-      "he": "דטרגנטים"
-    },
-    "image": "/products/detergents.jpg"
+    "name": "Garden Fresh Gourmet",
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
   },
   {
-    "name": "Riviera Cosmetics",
-    "industry": {
-      "en": "Cosmetics",
-      "he": "קוסמטיקה"
-    },
-    "image": "/products/cosmetics.jpg"
+    "name": "Arla",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
   },
   {
-    "name": "Fresh Valley Produce",
-    "industry": {
-      "en": "Fruits & Vegetables",
-      "he": "פירות וירקות"
-    },
-    "image": "/products/vegetables.jpg"
+    "name": "HP",
+    "industry": { "en": "Sauces", "he": "רטבים" }
   },
   {
-    "name": "OceanCatch Fish Co.",
-    "industry": {
-      "en": "Fish",
-      "he": "דגים"
-    },
-    "image": "/products/fish.jpg"
+    "name": "Danone",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
   },
   {
-    "name": "Petfit Foods",
-    "industry": {
-      "en": "Pet Food",
-      "he": "מזון לחיות"
-    },
-    "image": "/products/pet-food.jpg"
+    "name": "Strauss",
+    "industry": { "en": "Food", "he": "מזון" }
   },
   {
-    "name": "Salads & More",
-    "industry": {
-      "en": "Salads",
-      "he": "סלטים"
-    },
-    "image": "/products/salads.jpg"
+    "name": "Kraft",
+    "industry": { "en": "Food", "he": "מזון" }
   },
   {
-    "name": "Spice Master",
-    "industry": {
-      "en": "Powders & Spices",
-      "he": "אבקות ותבלינים"
-    },
-    "image": "/products/powders.jpg"
+    "name": "Knorr",
+    "industry": { "en": "Food", "he": "מזון" }
+  },
+  {
+    "name": "Yoplait",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+  },
+  {
+    "name": "Wimm Bill Dann",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+  },
+  {
+    "name": "Nestle",
+    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" }
+  },
+  {
+    "name": "McDonald's",
+    "industry": { "en": "Food Service", "he": "שירותי מזון" }
+  },
+  {
+    "name": "Summer Fresh",
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
+  },
+  {
+    "name": "Unilever",
+    "industry": { "en": "Consumer Goods", "he": "מוצרי צריכה" }
+  },
+  {
+    "name": "Sano",
+    "industry": { "en": "Cleaning & Hygiene", "he": "ניקיון והיגיינה" }
+  },
+  {
+    "name": "Sabra",
+    "industry": { "en": "Salads & Spreads", "he": "סלטים וממרחים" }
+  },
+  {
+    "name": "Taylor Farms",
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
+  },
+  {
+    "name": "Black Swan",
+    "industry": { "en": "Dips & Spreads", "he": "מטבלים וממרחים" }
+  },
+  {
+    "name": "Mareven Food",
+    "industry": { "en": "Food", "he": "מזון" }
+  },
+  {
+    "name": "Parmalat",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+  },
+  {
+    "name": "Gad",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+  },
+  {
+    "name": "Kri Kri",
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+  },
+  {
+    "name": "Ready Pac",
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
+  },
+  {
+    "name": "Smart Balance",
+    "industry": { "en": "Food", "he": "מזון" }
+  },
+  {
+    "name": "Wissotzky Tea",
+    "industry": { "en": "Tea", "he": "תה" }
+  },
+  {
+    "name": "Cafe Elite",
+    "industry": { "en": "Coffee", "he": "קפה" }
   }
 ]

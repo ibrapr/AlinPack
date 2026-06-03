@@ -43,9 +43,15 @@ export default function ClientLogos({ locale, title, subtitle, variant = 'marque
                       loading="lazy"
                     />
                   ) : (
-                    <div className="absolute inset-0 bg-gradient-to-br from-brand-gray-100 to-white" />
+                    <div className="absolute inset-0 flex items-center justify-center bg-white px-5">
+                      <span className="text-center text-xl font-extrabold uppercase tracking-[0.12em] text-brand-gray-700">
+                        {client.name}
+                      </span>
+                    </div>
                   )}
-                  <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/55 to-transparent" />
+                  {(client.logo || client.image) && (
+                    <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-black/55 to-transparent" />
+                  )}
                 </div>
                 <div className="flex flex-1 flex-col justify-center p-5 text-center">
                   <p className="text-base font-bold text-brand-black">{client.name}</p>
@@ -87,7 +93,11 @@ export default function ClientLogos({ locale, title, subtitle, variant = 'marque
                       loading="lazy"
                     />
                   </div>
-                ) : null}
+                ) : (
+                  <div className="flex h-12 w-16 items-center justify-center rounded-xl bg-brand-red/10 text-xs font-extrabold uppercase tracking-[0.12em] text-brand-red">
+                    {client.name.slice(0, 2)}
+                  </div>
+                )}
                 <span className="text-base sm:text-lg font-bold text-brand-gray-500 transition-colors hover:text-brand-black whitespace-nowrap">
                   {client.name}
                 </span>

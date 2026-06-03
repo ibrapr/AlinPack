@@ -42,13 +42,11 @@ export default function Navbar({ locale }: NavbarProps) {
   const navLeft = [
     { href: `/${locale}`, label: dict.nav.home },
     { href: `/${locale}/about`, label: dict.nav.about },
-    { href: `/${locale}/machines`, label: dict.nav.machines },
   ];
   const navRight = [
-    { href: `/${locale}/products`, label: dict.nav.products },
+    { href: `/${locale}/machines`, label: dict.nav.machines },
     { href: `/${locale}/services`, label: dict.nav.services },
-    { href: `/${locale}/clients`, label: dict.nav.clients },
-    { href: `/${locale}/contact`, label: dict.nav.contact },
+    { href: `/${locale}/contact`, label: locale === 'he' ? dict.nav.contact : 'Contact Us' },
   ];
   const nav = [...navLeft, ...navRight];
 
@@ -76,8 +74,8 @@ export default function Navbar({ locale }: NavbarProps) {
         scrolled || open ? 'bg-white border-b border-brand-gray-200 shadow-soft' : 'bg-white',
       )}
     >
-      <div className="container-wide relative flex h-20 items-center justify-between gap-4 lg:grid lg:grid-cols-[1fr_auto_1fr]">
-        <nav className="hidden lg:flex items-center justify-end gap-5">
+      <div className="container-wide relative flex h-20 items-center justify-between gap-4">
+        <nav className="hidden lg:flex flex-1 items-center justify-end gap-10 xl:gap-14">
           {navLeft.map((item) => (
             <Link
               key={item.href}
@@ -97,12 +95,12 @@ export default function Navbar({ locale }: NavbarProps) {
           ))}
         </nav>
 
-        <Link href={`/${locale}`} className="flex-shrink-0 lg:justify-self-center" aria-label="Pack Line">
+        <Link href={`/${locale}`} className="flex-shrink-0" aria-label="Pack Line">
           <Logo dark={onDark} priority />
         </Link>
 
-        <div className="hidden lg:flex items-center justify-start gap-5">
-          <nav className="flex items-center gap-5">
+        <div className="hidden lg:flex flex-1 items-center justify-start gap-8 xl:gap-10">
+          <nav className="flex items-center gap-10 xl:gap-14">
             {navRight.map((item) => (
               <Link
                 key={item.href}

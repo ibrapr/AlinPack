@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Box, Package, Wrench } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 import { getDictionary } from '@/i18n/getDictionary';
 import { products } from '@/data/products';
@@ -14,44 +14,101 @@ const PREVIEW = [
 export default function CategoriesPreview({ locale }: { locale: Locale }) {
   const dict = getDictionary(locale);
   const previewProducts = PREVIEW.map((slug) => products.find((p) => p.slug === slug)!).filter(Boolean);
+  const choicePanels = [
+    {
+      title: locale === 'he' ? 'המוצר שברצונך לארוז' : 'The product you want to pack',
+      href: `/${locale}/products`,
+      image: '/products/sauces.jpg',
+      icon: Package,
+    },
+    {
+      title: locale === 'he' ? 'האריזה בה תרצה לארוז' : 'The package you want to use',
+      href: `/${locale}/products/containers`,
+      image: '/products/containers.jpg',
+      icon: Box,
+    },
+    {
+      title: locale === 'he' ? 'שירות בו נוכל לסייע לך' : 'Service we can help with',
+      href: `/${locale}/services`,
+      image: '/products/bottles.jpg',
+      icon: Wrench,
+    },
+  ];
 
   return (
-    <section className="section bg-brand-gray-50">
+    <section className="section bg-white">
       <div className="container-wide">
-        <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-          <div className="max-w-2xl">
-            <p className="eyebrow">{dict.home.categories.eyebrow}</p>
-            <h2 className="mt-3 heading-lg text-balance">{dict.home.categories.title}</h2>
-          </div>
-          <Link href={`/${locale}/products`} className="btn-outline self-start sm:self-auto">
-            {dict.home.categories.cta}
-            <ArrowRight className="h-4 w-4 rtl-flip" />
-          </Link>
+        <div className="grid gap-4 md:grid-cols-3">
+          {choicePanels.map(({ title, href, image, icon: Icon }) => (
+            <Link
+              key={title}
+              href={href}
+              className="group relative min-h-[260px] overflow-hidden bg-brand-gray-100"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={image}
+                alt=""
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-black/78 via-brand-black/18 to-transparent" />
+              <div className="absolute bottom-0 start-0 end-0 p-6 text-white">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center bg-white text-brand-red">
+                  <Icon className="h-6 w-6" />
+                </div>
+                <h2 className="max-w-xs text-2xl font-extrabold leading-tight tracking-normal">
+                  {title}
+                </h2>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
+                  {locale === 'he' ? 'לצפייה' : 'View options'}
+                  <ArrowRight className="h-4 w-4 rtl-flip" />
+                </span>
+              </div>
+            </Link>
+          ))}
         </div>
 
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
-          {previewProducts.map((product) => {
-            const count = getMachinesByProduct(product.slug).length;
-            return (
-              <Link
-                key={product.slug}
-                href={`/${locale}/products/${product.slug}`}
-                className="group relative flex flex-col items-start gap-3 rounded-2xl border border-brand-gray-200 bg-white p-4 sm:p-5 transition-all hover:border-brand-red hover:shadow-card hover:-translate-y-0.5"
-              >
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-red/10 text-brand-red transition-colors group-hover:bg-brand-red group-hover:text-white">
-                  <ProductIcon name={product.icon || 'box'} className="h-5 w-5" />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-brand-black group-hover:text-brand-red transition-colors">
-                    {product.name[locale]}
-                  </p>
-                  <p className="mt-0.5 text-xs text-brand-gray-500">
-                    {count} {dict.products.card.machines}
-                  </p>
-                </div>
-              </Link>
-            );
-          })}
+        <div className="mt-12 border-y border-brand-gray-200 py-8">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-red">
+                {dict.home.categories.eyebrow}
+              </p>
+              <h2 className="mt-3 text-3xl font-extrabold tracking-normal text-brand-black">
+                {locale === 'he' ? 'המוצר שלך' : 'Your product'}
+              </h2>
+            </div>
+            <Link href={`/${locale}/products`} className="link-underline">
+              {dict.home.categories.cta}
+              <ArrowRight className="h-4 w-4 rtl-flip" />
+            </Link>
+          </div>
+
+          <div className="mt-7 grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {previewProducts.map((product) => {
+              const count = getMachinesByProduct(product.slug).length;
+              return (
+                <Link
+                  key={product.slug}
+                  href={`/${locale}/products/${product.slug}`}
+                  className="group flex items-center gap-3 border-b border-brand-gray-100 pb-4"
+                >
+                  <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center bg-brand-red/10 text-brand-red transition-colors group-hover:bg-brand-red group-hover:text-white">
+                    <ProductIcon name={product.icon || 'box'} className="h-5 w-5" />
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block text-sm font-bold text-brand-black group-hover:text-brand-red">
+                      {product.name[locale]}
+                    </span>
+                    <span className="mt-0.5 block text-xs text-brand-gray-500">
+                      {count} {dict.products.card.machines}
+                    </span>
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

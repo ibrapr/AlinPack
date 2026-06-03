@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ArrowRight } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { getDictionary } from '@/i18n/getDictionary';
 import { locales, localeNames } from '@/i18n/config';
 import type { Locale } from '@/i18n/config';
@@ -39,15 +39,18 @@ export default function Navbar({ locale }: NavbarProps) {
     };
   }, [open]);
 
-  const nav = [
+  const navLeft = [
     { href: `/${locale}`, label: dict.nav.home },
     { href: `/${locale}/about`, label: dict.nav.about },
     { href: `/${locale}/machines`, label: dict.nav.machines },
+  ];
+  const navRight = [
     { href: `/${locale}/products`, label: dict.nav.products },
     { href: `/${locale}/services`, label: dict.nav.services },
     { href: `/${locale}/clients`, label: dict.nav.clients },
     { href: `/${locale}/contact`, label: dict.nav.contact },
   ];
+  const nav = [...navLeft, ...navRight];
 
   const isActive = (href: string) => {
     if (href === `/${locale}`) return pathname === href;
@@ -70,51 +73,55 @@ export default function Navbar({ locale }: NavbarProps) {
     <header
       className={cn(
         'fixed inset-x-0 top-0 z-50 transition-all duration-300',
-        scrolled || open
-          ? 'bg-white/90 backdrop-blur-xl border-b border-brand-gray-200/60 shadow-soft'
-          : 'bg-transparent',
+        scrolled || open ? 'bg-white border-b border-brand-gray-200 shadow-soft' : 'bg-white',
       )}
     >
-      <div className="container-wide flex h-20 items-center justify-between gap-6">
-        <Link href={`/${locale}`} className="flex-shrink-0" aria-label="Alin Pack">
-          <Logo dark={onDark} priority />
-        </Link>
-
-        <nav className="hidden lg:flex items-center gap-1">
-          {nav.map((item) => (
+      <div className="container-wide relative flex h-20 items-center justify-between gap-4 lg:grid lg:grid-cols-[1fr_auto_1fr]">
+        <nav className="hidden lg:flex items-center justify-end gap-5">
+          {navLeft.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                'relative rounded-full px-3.5 py-2 text-sm font-medium transition-colors',
+                'relative py-2 text-[13px] font-bold uppercase tracking-[0.12em] transition-colors',
                 isActive(item.href)
-                  ? onDark
-                    ? 'text-white'
-                    : 'text-brand-red'
-                  : onDark
-                  ? 'text-white/80 hover:text-white'
+                  ? 'text-brand-red'
                   : 'text-brand-gray-700 hover:text-brand-black',
               )}
             >
               {item.label}
               {isActive(item.href) && (
-                <span
-                  className={cn(
-                    'absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full',
-                    onDark ? 'bg-brand-red' : 'bg-brand-red',
-                  )}
-                />
+                <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-brand-red" />
               )}
             </Link>
           ))}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-3">
+        <Link href={`/${locale}`} className="flex-shrink-0 lg:justify-self-center" aria-label="Pack Line">
+          <Logo dark={onDark} priority />
+        </Link>
+
+        <div className="hidden lg:flex items-center justify-start gap-5">
+          <nav className="flex items-center gap-5">
+            {navRight.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={cn(
+                  'relative py-2 text-[13px] font-bold uppercase tracking-[0.12em] transition-colors',
+                  isActive(item.href)
+                    ? 'text-brand-red'
+                    : 'text-brand-gray-700 hover:text-brand-black',
+                )}
+              >
+                {item.label}
+                {isActive(item.href) && (
+                  <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-brand-red" />
+                )}
+              </Link>
+            ))}
+          </nav>
           <LanguageSwitcher locale={locale} variant={onDark ? 'minimal' : 'default'} />
-          <Link href={`/${locale}/contact`} className="btn-primary">
-            {dict.nav.requestQuote}
-            <ArrowRight className="h-4 w-4 rtl-flip" />
-          </Link>
         </div>
 
         <button
@@ -152,7 +159,6 @@ export default function Navbar({ locale }: NavbarProps) {
                 )}
               >
                 {item.label}
-                <ArrowRight className="h-4 w-4 opacity-60 rtl-flip" />
               </Link>
             ))}
           </nav>

@@ -27,7 +27,7 @@ export default function Logo({ className, dark = false, priority = false }: Logo
           dark ? 'text-white' : 'text-brand-black',
         )}
       >
-        PACK LINE
+        ALIN PACK
       </span>
     </span>
   );

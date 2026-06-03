@@ -8,16 +8,16 @@ export default function MachineIllustration() {
     >
       <defs>
         <linearGradient id="machineBody" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#E10600" stopOpacity="0.95" />
-          <stop offset="100%" stopColor="#7a0300" stopOpacity="0.95" />
+          <stop offset="0%" stopColor="#0B5DAA" stopOpacity="0.95" />
+          <stop offset="100%" stopColor="#08457E" stopOpacity="0.95" />
         </linearGradient>
         <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stopColor="#fafafa" stopOpacity="0.3" />
-          <stop offset="100%" stopColor="#27272a" stopOpacity="0.6" />
+          <stop offset="100%" stopColor="#12345A" stopOpacity="0.6" />
         </linearGradient>
         <linearGradient id="conveyor" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stopColor="#52525B" />
-          <stop offset="100%" stopColor="#27272A" />
+          <stop offset="0%" stopColor="#456985" />
+          <stop offset="100%" stopColor="#0B1F3A" />
         </linearGradient>
         <linearGradient id="bottle" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" stopColor="#ffffff" stopOpacity="0.95" />
@@ -37,7 +37,7 @@ export default function MachineIllustration() {
 
       {/* Conveyor */}
       <rect x="40" y="370" width="320" height="32" rx="6" fill="url(#conveyor)" />
-      <rect x="40" y="396" width="320" height="6" fill="#0A0A0A" />
+      <rect x="40" y="396" width="320" height="6" fill="#0B1F3A" />
       {[...Array(10)].map((_, i) => (
         <rect
           key={i}
@@ -46,7 +46,7 @@ export default function MachineIllustration() {
           width={18}
           height={28}
           rx={2}
-          fill="#3F3F46"
+          fill="#274767"
         />
       ))}
 
@@ -65,26 +65,26 @@ export default function MachineIllustration() {
       {/* Machine top hopper */}
       <path
         d="M140 120 L260 120 L240 60 L160 60 Z"
-        fill="#1a1a1a"
-        stroke="#3F3F46"
+        fill="#0B1F3A"
+        stroke="#456985"
         strokeWidth="2"
       />
-      <ellipse cx="200" cy="60" rx="40" ry="8" fill="#27272A" stroke="#52525B" strokeWidth="1.5" />
-      <ellipse cx="200" cy="58" rx="36" ry="6" fill="#0A0A0A" />
+      <ellipse cx="200" cy="60" rx="40" ry="8" fill="#12345A" stroke="#456985" strokeWidth="1.5" />
+      <ellipse cx="200" cy="58" rx="36" ry="6" fill="#0B1F3A" />
 
       {/* HMI screen */}
-      <rect x="110" y="150" width="80" height="60" rx="6" fill="#0A0A0A" stroke="#27272A" strokeWidth="1" />
-      <rect x="116" y="156" width="68" height="48" rx="3" fill="#0A0A0A" />
-      <rect x="120" y="160" width="20" height="3" fill="#E10600" />
+      <rect x="110" y="150" width="80" height="60" rx="6" fill="#0B1F3A" stroke="#12345A" strokeWidth="1" />
+      <rect x="116" y="156" width="68" height="48" rx="3" fill="#0B1F3A" />
+      <rect x="120" y="160" width="20" height="3" fill="#2F80D8" />
       <rect x="120" y="168" width="40" height="2" fill="#fafafa" opacity="0.7" />
       <rect x="120" y="174" width="32" height="2" fill="#fafafa" opacity="0.5" />
       <rect x="120" y="180" width="48" height="2" fill="#fafafa" opacity="0.5" />
       <circle cx="172" cy="180" r="4" fill="#22c55e" filter="url(#machineGlow)" />
-      <rect x="120" y="190" width="56" height="8" rx="2" fill="#27272A" />
-      <rect x="120" y="190" width="38" height="8" rx="2" fill="#E10600" />
+      <rect x="120" y="190" width="56" height="8" rx="2" fill="#12345A" />
+      <rect x="120" y="190" width="38" height="8" rx="2" fill="#2F80D8" />
 
       {/* Status panel */}
-      <rect x="210" y="150" width="90" height="60" rx="6" fill="#0A0A0A" stroke="#27272A" strokeWidth="1" />
+      <rect x="210" y="150" width="90" height="60" rx="6" fill="#0B1F3A" stroke="#12345A" strokeWidth="1" />
       <circle cx="225" cy="165" r="5" fill="#22c55e" />
       <rect x="235" y="162" width="58" height="6" rx="1" fill="#fafafa" opacity="0.8" />
       <circle cx="225" cy="180" r="5" fill="#fbbf24" />
@@ -93,19 +93,19 @@ export default function MachineIllustration() {
       <rect x="235" y="192" width="42" height="6" rx="1" fill="#fafafa" opacity="0.6" />
 
       {/* Filling head */}
-      <rect x="170" y="220" width="60" height="30" rx="4" fill="#0A0A0A" stroke="#3F3F46" strokeWidth="1.5" />
-      <rect x="180" y="250" width="40" height="50" rx="2" fill="#27272A" />
-      <rect x="186" y="300" width="28" height="20" rx="2" fill="#52525B" />
+      <rect x="170" y="220" width="60" height="30" rx="4" fill="#0B1F3A" stroke="#456985" strokeWidth="1.5" />
+      <rect x="180" y="250" width="40" height="50" rx="2" fill="#12345A" />
+      <rect x="186" y="300" width="28" height="20" rx="2" fill="#456985" />
       <rect x="194" y="320" width="12" height="50" fill="#A1A1AA" />
 
       {/* Side controls */}
-      <circle cx="105" cy="280" r="14" fill="#0A0A0A" stroke="#52525B" strokeWidth="2" />
-      <circle cx="105" cy="280" r="6" fill="#E10600" />
-      <circle cx="295" cy="280" r="14" fill="#0A0A0A" stroke="#52525B" strokeWidth="2" />
+      <circle cx="105" cy="280" r="14" fill="#0B1F3A" stroke="#456985" strokeWidth="2" />
+      <circle cx="105" cy="280" r="6" fill="#2F80D8" />
+      <circle cx="295" cy="280" r="14" fill="#0B1F3A" stroke="#456985" strokeWidth="2" />
       <circle cx="295" cy="280" r="6" fill="#22c55e" />
 
       {/* Brand line */}
-      <rect x="120" y="330" width="160" height="14" rx="3" fill="#0A0A0A" />
+      <rect x="120" y="330" width="160" height="14" rx="3" fill="#0B1F3A" />
       <text
         x="200"
         y="341"
@@ -130,7 +130,7 @@ export default function MachineIllustration() {
       ].map((b, i) => (
         <g key={i}>
           <rect x={b.x - 8} y={344} width={16} height={26} rx={2} fill="url(#bottle)" />
-          <rect x={b.x - 4} y={336} width={8} height={8} rx={1} fill="#0A0A0A" />
+          <rect x={b.x - 4} y={336} width={8} height={8} rx={1} fill="#0B1F3A" />
           <rect x={b.x - 7} y={350} width={14} height={6} rx={1} fill={b.fill} opacity="0.8" />
         </g>
       ))}

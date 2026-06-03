@@ -124,13 +124,13 @@ export default function ContactForm({ locale, defaultProduct }: ContactFormProps
           background: #fff;
           padding: 0.75rem 1rem;
           font-size: 0.9rem;
-          color: #0A0A0A;
+          color: #0B1F3A;
           transition: border-color 150ms, box-shadow 150ms;
         }
         :global(.input:focus) {
           outline: none;
-          border-color: #E10600;
-          box-shadow: 0 0 0 3px rgba(225, 6, 0, 0.15);
+          border-color: #0B5DAA;
+          box-shadow: 0 0 0 3px rgba(11, 93, 170, 0.15);
         }
         :global(.input::placeholder) {
           color: #A1A1AA;

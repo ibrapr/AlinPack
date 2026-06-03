@@ -49,14 +49,14 @@ export default function ProductDetailPage({
 
   return (
     <>
-      <section className="relative overflow-hidden bg-gradient-hero text-white">
+      <section className="relative overflow-hidden bg-gradient-hero text-brand-black">
         <div className="absolute inset-0 bg-grid-pattern opacity-[0.06]" />
         <div className="absolute -top-32 -end-32 h-80 w-80 rounded-full bg-brand-red/20 blur-3xl" />
 
         <div className="container-wide relative py-12 sm:py-16 lg:py-20">
           <Link
             href={`/${locale}/products`}
-            className="inline-flex items-center gap-2 text-sm font-medium text-white/70 hover:text-white transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-medium text-brand-gray-700 hover:text-brand-red transition-colors"
           >
             <ArrowLeft className="h-4 w-4 rtl-flip" />
             {dict.productDetail.back}
@@ -64,12 +64,12 @@ export default function ProductDetailPage({
 
           <div className="mt-8 grid items-center gap-10 lg:grid-cols-12">
             <div className="lg:col-span-9">
-              <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] backdrop-blur">
+              <div className="inline-flex items-center gap-2 rounded-full border border-brand-gray-200 bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] shadow-soft">
                 <ProductIcon name={product.icon || 'box'} className="h-3.5 w-3.5" />
                 {product.group}
               </div>
               <h1 className="mt-5 heading-xl text-balance">{product.name[locale]}</h1>
-              <p className="mt-5 max-w-xl text-base text-brand-gray-300 leading-relaxed">
+              <p className="mt-5 max-w-xl text-base text-brand-gray-700 leading-relaxed">
                 {product.shortDescription[locale]}
               </p>
 
@@ -82,7 +82,7 @@ export default function ProductDetailPage({
                   href={whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn border border-white/20 bg-white/5 text-white hover:bg-white/10 text-base px-7 py-3.5 backdrop-blur"
+                  className="btn border border-brand-gray-300 bg-white text-brand-black hover:border-brand-red hover:text-brand-red text-base px-7 py-3.5"
                 >
                   <MessageCircle className="h-4 w-4" />
                   WhatsApp
@@ -91,7 +91,7 @@ export default function ProductDetailPage({
             </div>
 
             <div className="lg:col-span-3">
-              <div className="relative mx-auto aspect-square max-w-[220px] overflow-hidden rounded-2xl border border-white/10 bg-brand-black shadow-card sm:max-w-[260px] lg:max-w-none">
+              <div className="relative mx-auto aspect-square max-w-[220px] overflow-hidden rounded-2xl border border-brand-gray-200 bg-white shadow-card sm:max-w-[260px] lg:max-w-none">
                 {product.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img

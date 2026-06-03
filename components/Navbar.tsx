@@ -64,7 +64,7 @@ export default function Navbar({ locale }: NavbarProps) {
     return segments.join('/') || `/${target}`;
   };
 
-  const onDark = !scrolled && !open;
+  const onDark = false;
 
   return (
     <header
@@ -167,7 +167,7 @@ export default function Navbar({ locale }: NavbarProps) {
                     'inline-flex items-center justify-center rounded-xl border px-4 py-3 text-sm font-bold transition-colors',
                     l === locale
                       ? 'border-brand-red bg-brand-red text-white'
-                      : 'border-white/15 bg-white/5 text-white hover:border-brand-red hover:text-brand-red',
+                      : 'border-brand-gray-200 bg-white text-brand-black hover:border-brand-red hover:text-brand-red',
                   )}
                 >
                   {localeNames[l]}

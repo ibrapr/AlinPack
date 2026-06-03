@@ -17,7 +17,7 @@ export default function CTASection({ locale, title, subtitle, cta }: CTASectionP
   return (
     <section className="section">
       <div className="container-wide">
-        <div className="relative overflow-hidden rounded-3xl bg-gradient-hero p-7 sm:p-9 lg:p-12 text-white">
+        <div className="relative overflow-hidden rounded-3xl bg-brand-black p-7 sm:p-9 lg:p-12 text-white">
           <div className="absolute inset-0 bg-grid-pattern opacity-[0.05]" />
           <div className="absolute -top-32 -end-32 h-72 w-72 rounded-full bg-brand-red/25 blur-3xl" />
           <div className="absolute -bottom-32 -start-32 h-72 w-72 rounded-full bg-brand-red/15 blur-3xl" />

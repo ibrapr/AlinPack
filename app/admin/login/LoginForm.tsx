@@ -12,7 +12,7 @@ export default function LoginForm() {
   return (
     <form action={formAction} className="mt-8 space-y-4">
       <label className="block">
-        <span className="text-xs font-semibold uppercase tracking-wider text-brand-gray-400">
+        <span className="text-xs font-semibold uppercase tracking-wider text-brand-gray-700">
           Password
         </span>
         <div className="mt-2 relative">
@@ -23,13 +23,13 @@ export default function LoginForm() {
             required
             autoFocus
             placeholder="••••••••"
-            className="w-full rounded-2xl border border-white/15 bg-white/5 ps-11 pe-4 py-3.5 text-sm text-white placeholder:text-brand-gray-500 backdrop-blur focus:border-brand-red focus:outline-none focus:ring-2 focus:ring-brand-red/20"
+            className="w-full rounded-2xl border border-brand-gray-200 bg-white ps-11 pe-4 py-3.5 text-sm text-brand-black placeholder:text-brand-gray-400 focus:border-brand-red focus:outline-none focus:ring-2 focus:ring-brand-red/20"
           />
         </div>
       </label>
 
       {state?.error && (
-        <p className="inline-flex items-start gap-2 text-sm text-red-300">
+        <p className="inline-flex items-start gap-2 text-sm text-red-600">
           <AlertCircle className="mt-0.5 h-4 w-4 flex-shrink-0" />
           {state.error}
         </p>

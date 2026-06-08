@@ -1,5 +1,6 @@
 import { clients } from '@/data/clients';
 import type { Locale } from '@/i18n/config';
+import ClientLogoImg from '@/components/ClientLogoImg';
 
 interface ClientLogosProps {
   locale: Locale;
@@ -27,12 +28,10 @@ export default function ClientLogos({ locale, title, subtitle, variant = 'marque
               >
                 <div className="relative aspect-[5/3] overflow-hidden bg-brand-gray-100">
                   {client.logo ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={client.logo}
-                      alt={client.name}
+                    <ClientLogoImg
+                      path={client.logo}
+                      name={client.name}
                       className="absolute inset-0 h-full w-full object-contain p-8"
-                      loading="lazy"
                     />
                   ) : client.image ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -85,13 +84,21 @@ export default function ClientLogos({ locale, title, subtitle, variant = 'marque
               <div className="flex items-center gap-3 rounded-2xl border border-brand-gray-200 bg-white py-2 ps-2 pe-5 shadow-soft">
                 {client.logo || client.image ? (
                   <div className="relative h-12 w-16 overflow-hidden rounded-xl bg-brand-gray-100">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={client.logo || client.image}
-                      alt={client.name}
-                      className={`absolute inset-0 h-full w-full ${client.logo ? 'object-contain p-2' : 'object-cover'}`}
-                      loading="lazy"
-                    />
+                    {client.logo ? (
+                      <ClientLogoImg
+                        path={client.logo}
+                        name={client.name}
+                        className="absolute inset-0 h-full w-full object-contain p-2"
+                      />
+                    ) : (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={client.image}
+                        alt={client.name}
+                        className="absolute inset-0 h-full w-full object-cover"
+                        loading="lazy"
+                      />
+                    )}
                   </div>
                 ) : (
                   <div className="flex h-12 w-16 items-center justify-center rounded-xl bg-brand-red/10 text-xs font-extrabold uppercase tracking-[0.12em] text-brand-red">

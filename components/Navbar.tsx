@@ -74,59 +74,13 @@ export default function Navbar({ locale }: NavbarProps) {
         scrolled || open ? 'bg-white border-b border-brand-gray-200 shadow-soft' : 'bg-white',
       )}
     >
-      <div className="relative mx-auto flex h-20 w-full max-w-none items-center justify-between gap-4 px-6 sm:px-8 lg:px-12 xl:px-20">
-        <nav className="absolute left-0 top-1/2 hidden -translate-y-1/2 items-center gap-12 lg:flex xl:gap-16">
-          {navLeft.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                'relative py-2 text-[13px] font-bold uppercase tracking-[0.12em] transition-colors',
-                isActive(item.href)
-                  ? 'text-brand-red'
-                  : 'text-brand-gray-700 hover:text-brand-black',
-              )}
-            >
-              {item.label}
-              {isActive(item.href) && (
-                <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-brand-red" />
-              )}
-            </Link>
-          ))}
-        </nav>
+      <div className="mx-auto flex w-full max-w-none flex-col px-6 sm:px-8 lg:px-12 xl:px-20">
+        <div className="flex items-center justify-between py-3 lg:justify-center">
+          <Link href={`/${locale}`} className="flex" aria-label="Alin Pack">
+            <Logo dark={onDark} priority />
+          </Link>
 
-        <Link
-          href={`/${locale}`}
-          className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2"
-          aria-label="Alin Pack"
-        >
-          <Logo dark={onDark} priority />
-        </Link>
-
-        <div className="absolute right-0 top-1/2 hidden -translate-y-1/2 items-center gap-8 lg:flex xl:gap-10">
-          <nav className="flex items-center gap-12 xl:gap-16">
-            {navRight.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={cn(
-                  'relative py-2 text-[13px] font-bold uppercase tracking-[0.12em] transition-colors',
-                  isActive(item.href)
-                    ? 'text-brand-red'
-                    : 'text-brand-gray-700 hover:text-brand-black',
-                )}
-              >
-                {item.label}
-                {isActive(item.href) && (
-                  <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-brand-red" />
-                )}
-              </Link>
-            ))}
-          </nav>
-          <LanguageSwitcher locale={locale} variant={onDark ? 'minimal' : 'default'} />
-        </div>
-
-        <button
+          <button
           aria-label={open ? dict.nav.close : dict.nav.menu}
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
@@ -138,7 +92,29 @@ export default function Navbar({ locale }: NavbarProps) {
           )}
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+          </button>
+        </div>
+
+        <nav className="hidden items-center justify-center gap-10 border-t border-brand-gray-200 py-3 lg:flex xl:gap-14">
+          {nav.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={cn(
+                'relative py-1.5 text-[13px] font-bold uppercase tracking-[0.12em] transition-colors',
+                isActive(item.href)
+                  ? 'text-brand-red'
+                  : 'text-brand-gray-700 hover:text-brand-black',
+              )}
+            >
+              {item.label}
+              {isActive(item.href) && (
+                <span className="absolute inset-x-0 -bottom-0.5 h-0.5 bg-brand-red" />
+              )}
+            </Link>
+          ))}
+          <LanguageSwitcher locale={locale} variant={onDark ? 'minimal' : 'default'} />
+        </nav>
       </div>
 
       <div

@@ -68,7 +68,7 @@ export default function LocaleLayout({
       <body dir={dir} className="public-site min-h-screen bg-white text-brand-black antialiased">
         <OrganizationJsonLd />
         <Navbar locale={locale} />
-        <main>{children}</main>
+        <main className="pt-[52px] lg:pt-[102px]">{children}</main>
         <Footer locale={locale} />
         <WhatsAppButton locale={locale} />
       </body>

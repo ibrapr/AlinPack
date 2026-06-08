@@ -1,122 +1,97 @@
 [
   {
     "name": "Osem",
-    "industry": { "en": "Food", "he": "מזון" }
+    "industry": { "en": "Food", "he": "מזון" },
+    "logo": "/clients/osem"
   },
   {
     "name": "Tnuva",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/tnuva"
   },
   {
     "name": "Nespresso",
-    "industry": { "en": "Coffee", "he": "קפה" }
+    "industry": { "en": "Coffee", "he": "קפה" },
+    "logo": "/clients/nespresso"
   },
   {
     "name": "Muller",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/muller"
   },
   {
     "name": "PepsiCo",
-    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" }
+    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" },
+    "logo": "/clients/pepsico"
   },
   {
     "name": "Garden Fresh Gourmet",
-    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" },
+    "logo": "/clients/garden-fresh-gourmet"
   },
   {
     "name": "Arla",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/arla"
   },
   {
     "name": "HP",
-    "industry": { "en": "Sauces", "he": "רטבים" }
+    "industry": { "en": "Sauces", "he": "רטבים" },
+    "logo": "/clients/hp"
   },
   {
     "name": "Danone",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/danone"
   },
   {
     "name": "Strauss",
-    "industry": { "en": "Food", "he": "מזון" }
+    "industry": { "en": "Food", "he": "מזון" },
+    "logo": "/clients/strauss"
   },
   {
     "name": "Kraft",
-    "industry": { "en": "Food", "he": "מזון" }
+    "industry": { "en": "Food", "he": "מזון" },
+    "logo": "/clients/kraft"
   },
   {
     "name": "Knorr",
-    "industry": { "en": "Food", "he": "מזון" }
+    "industry": { "en": "Food", "he": "מזון" },
+    "logo": "/clients/knorr"
   },
   {
     "name": "Yoplait",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/yoplait"
   },
   {
     "name": "Wimm Bill Dann",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
+    "industry": { "en": "Dairy", "he": "מוצרי חלב" },
+    "logo": "/clients/wimm-bill-dann"
   },
   {
     "name": "Nestle",
-    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" }
+    "industry": { "en": "Food & Beverage", "he": "מזון ומשקאות" },
+    "logo": "/clients/nestle"
   },
   {
     "name": "McDonald's",
-    "industry": { "en": "Food Service", "he": "שירותי מזון" }
+    "industry": { "en": "Food Service", "he": "שירותי מזון" },
+    "logo": "/clients/mcdonalds"
   },
   {
     "name": "Summer Fresh",
-    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
+    "industry": { "en": "Fresh Food", "he": "מזון טרי" },
+    "logo": "/clients/summer-fresh"
   },
   {
     "name": "Unilever",
-    "industry": { "en": "Consumer Goods", "he": "מוצרי צריכה" }
+    "industry": { "en": "Consumer Goods", "he": "מוצרי צריכה" },
+    "logo": "/clients/unilever"
   },
   {
     "name": "Sano",
-    "industry": { "en": "Cleaning & Hygiene", "he": "ניקיון והיגיינה" }
-  },
-  {
-    "name": "Sabra",
-    "industry": { "en": "Salads & Spreads", "he": "סלטים וממרחים" }
-  },
-  {
-    "name": "Taylor Farms",
-    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
-  },
-  {
-    "name": "Black Swan",
-    "industry": { "en": "Dips & Spreads", "he": "מטבלים וממרחים" }
-  },
-  {
-    "name": "Mareven Food",
-    "industry": { "en": "Food", "he": "מזון" }
-  },
-  {
-    "name": "Parmalat",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
-  },
-  {
-    "name": "Gad",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
-  },
-  {
-    "name": "Kri Kri",
-    "industry": { "en": "Dairy", "he": "מוצרי חלב" }
-  },
-  {
-    "name": "Ready Pac",
-    "industry": { "en": "Fresh Food", "he": "מזון טרי" }
-  },
-  {
-    "name": "Smart Balance",
-    "industry": { "en": "Food", "he": "מזון" }
-  },
-  {
-    "name": "Wissotzky Tea",
-    "industry": { "en": "Tea", "he": "תה" }
-  },
-  {
-    "name": "Cafe Elite",
-    "industry": { "en": "Coffee", "he": "קפה" }
+    "industry": { "en": "Cleaning & Hygiene", "he": "ניקיון והיגיינה" },
+    "logo": "/clients/sano"
   }
 ]

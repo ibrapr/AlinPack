@@ -43,24 +43,24 @@ export default function CategoriesPreview({ locale }: { locale: Locale }) {
             <Link
               key={title}
               href={href}
-              className="group relative min-h-[260px] overflow-hidden bg-brand-gray-100"
+              className="group relative min-h-[360px] overflow-hidden bg-brand-gray-100 sm:min-h-[420px]"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={image}
                 alt=""
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-black/78 via-brand-black/18 to-transparent" />
-              <div className="absolute bottom-0 start-0 end-0 p-6 text-white">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center bg-white text-brand-red">
-                  <Icon className="h-6 w-6" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/10" />
+              <div className="absolute inset-0 flex flex-col justify-end p-7 text-white">
+                <div className="mb-4 flex h-11 w-11 items-center justify-center border border-white/25 bg-white/15 text-white backdrop-blur-sm">
+                  <Icon className="h-5 w-5" />
                 </div>
-                <h2 className="max-w-xs text-2xl font-extrabold leading-tight tracking-normal">
+                <h2 className="text-2xl font-extrabold leading-snug tracking-normal">
                   {title}
                 </h2>
-                <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
+                <span className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition-colors group-hover:text-white">
                   {locale === 'he' ? 'לצפייה' : 'View options'}
                   <ArrowRight className="h-4 w-4 rtl-flip" />
                 </span>

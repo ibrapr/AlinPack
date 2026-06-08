@@ -120,5 +120,215 @@
     ],
     "featured": true,
     "image": "/machines/sample-piston-filler.jpg"
+  },
+  {
+    "slug": "flowpack-machine",
+    "name": {
+      "en": "Flowpack Machine",
+      "he": "מכונת שקיות"
+    },
+    "category": "wrapping",
+    "shortDescription": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer.",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים.\n"
+    },
+    "description": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer. This text is just randomly generated and it means absolutely nothing, just think of it as a buffer to fill some spaces and fill up the page as well. You should stop reading this text at this point, come on just go on about your day and stop reading. Seriously! GO AWAY. Okay this is where the description ends, you are really stupid for continuing to read all the way through, there is truly nothing to see here...",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים. הטקסט הזה נוצר באופן אקראי לחלוטין ואינו אומר שום דבר בעל משמעות; פשוט התייחסו אליו כאל טקסט מילוי שנועד לתפוס מקום ולמלא את הדף. כדאי להפסיק לקרוא את הטקסט הזה בשלב הזה, באמת, פשוט המשיכו ביום שלכם ותפסיקו לקרוא. ברצינות! לכו מכאן. אוקיי, כאן מסתיים התיאור. אתם ממש טיפשים אם המשכתם לקרוא עד הסוף, כי באמת שאין כאן שום דבר לראות...\n"
+    },
+    "features": {
+      "en": [
+        "Whatever"
+      ],
+      "he": [
+        "משהו"
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Benefit1"
+      ],
+      "he": [
+        "יתרון1"
+      ]
+    },
+    "specs": [
+      {
+        "label": {
+          "en": "Engine",
+          "he": "מנוע"
+        },
+        "value": {
+          "en": "3000GK",
+          "he": "3000GK"
+        }
+      }
+    ],
+    "compatibleProductSlugs": [
+      "fruits",
+      "vegetables",
+      "ready-meals",
+      "pet-food",
+      "dairy"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "How many bags does this machine output per hour",
+          "he": "כמה שקיות מיצרת המכונה בשעה"
+        },
+        "answer": {
+          "en": "It can range between 2000-4000 bags per hour",
+          "he": "טווח של 2000-4000 שקיות בשעה"
+        }
+      }
+    ],
+    "videos": [],
+    "gallery": [
+      "/machines/flowpack-machine-mq5dl2ru.jpg",
+      "/machines/flowpack-machine-mq5dl4r3.jpg"
+    ],
+    "featured": true,
+    "image": "/machines/flowpack-machine-mq5dl0j4.jpg"
+  },
+  {
+    "slug": "case-packer",
+    "name": {
+      "en": "Case Packer",
+      "he": "מכונת שקיות"
+    },
+    "category": "wrapping",
+    "shortDescription": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer.",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים.\n"
+    },
+    "description": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer. This text is just randomly generated and it means absolutely nothing, just think of it as a buffer to fill some spaces and fill up the page as well. You should stop reading this text at this point, come on just go on about your day and stop reading. Seriously! GO AWAY. Okay this is where the description ends, you are really stupid for continuing to read all the way through, there is truly nothing to see here...",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים. הטקסט הזה נוצר באופן אקראי לחלוטין ואינו אומר שום דבר בעל משמעות; פשוט התייחסו אליו כאל טקסט מילוי שנועד לתפוס מקום ולמלא את הדף. כדאי להפסיק לקרוא את הטקסט הזה בשלב הזה, באמת, פשוט המשיכו ביום שלכם ותפסיקו לקרוא. ברצינות! לכו מכאן. אוקיי, כאן מסתיים התיאור. אתם ממש טיפשים אם המשכתם לקרוא עד הסוף, כי באמת שאין כאן שום דבר לראות...\n"
+    },
+    "features": {
+      "en": [
+        "Whatever"
+      ],
+      "he": [
+        "משהו"
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Benefit1"
+      ],
+      "he": [
+        "יתרון1"
+      ]
+    },
+    "specs": [
+      {
+        "label": {
+          "en": "Engine",
+          "he": "מנוע"
+        },
+        "value": {
+          "en": "3000GK",
+          "he": "3000GK"
+        }
+      }
+    ],
+    "compatibleProductSlugs": [
+      "fruits",
+      "vegetables",
+      "ready-meals",
+      "pet-food",
+      "dairy"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "How many bags does this machine output per hour",
+          "he": "כמה שקיות מיצרת המכונה בשעה"
+        },
+        "answer": {
+          "en": "It can range between 2000-4000 bags per hour",
+          "he": "טווח של 2000-4000 שקיות בשעה"
+        }
+      }
+    ],
+    "videos": [],
+    "gallery": [
+      "/machines/case-packer-mq5dpf1f.jpg",
+      "/machines/case-packer-mq5dpgvt.jpg"
+    ],
+    "featured": true,
+    "image": "/machines/case-packer-mq5dpd1i.jpg"
+  },
+  {
+    "slug": "bag-machine",
+    "name": {
+      "en": "Bag Machine",
+      "he": "מכונת שקיות"
+    },
+    "category": "filling",
+    "shortDescription": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer.",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים.\n"
+    },
+    "description": {
+      "en": "This machine will be used to pack things in bags or whatever you can think of that is used with nylons and plastic polymer. This text is just randomly generated and it means absolutely nothing, just think of it as a buffer to fill some spaces and fill up the page as well. You should stop reading this text at this point, come on just go on about your day and stop reading. Seriously! GO AWAY. Okay this is where the description ends, you are really stupid for continuing to read all the way through, there is truly nothing to see here...",
+      "he": "המכונה הזו תשמש לאריזת דברים בשקיות או לכל שימוש אחר שתוכלו לחשוב עליו שקשור לניילון ולפולימרים פלסטיים. הטקסט הזה נוצר באופן אקראי לחלוטין ואינו אומר שום דבר בעל משמעות; פשוט התייחסו אליו כאל טקסט מילוי שנועד לתפוס מקום ולמלא את הדף. כדאי להפסיק לקרוא את הטקסט הזה בשלב הזה, באמת, פשוט המשיכו ביום שלכם ותפסיקו לקרוא. ברצינות! לכו מכאן. אוקיי, כאן מסתיים התיאור. אתם ממש טיפשים אם המשכתם לקרוא עד הסוף, כי באמת שאין כאן שום דבר לראות...\n"
+    },
+    "features": {
+      "en": [
+        "Whatever"
+      ],
+      "he": [
+        "משהו"
+      ]
+    },
+    "benefits": {
+      "en": [
+        "Benefit1"
+      ],
+      "he": [
+        "יתרון1"
+      ]
+    },
+    "specs": [
+      {
+        "label": {
+          "en": "Engine",
+          "he": "מנוע"
+        },
+        "value": {
+          "en": "3000GK",
+          "he": "3000GK"
+        }
+      }
+    ],
+    "compatibleProductSlugs": [
+      "fruits",
+      "vegetables",
+      "ready-meals",
+      "pet-food",
+      "dairy"
+    ],
+    "faqs": [
+      {
+        "question": {
+          "en": "How many bags does this machine output per hour",
+          "he": "כמה שקיות מיצרת המכונה בשעה"
+        },
+        "answer": {
+          "en": "It can range between 2000-4000 bags per hour",
+          "he": "טווח של 2000-4000 שקיות בשעה"
+        }
+      }
+    ],
+    "videos": [],
+    "gallery": [
+      "/machines/bag-machine-mq5d7av0.jpg",
+      "/machines/bag-machine-mq5d7cua.jpg"
+    ],
+    "featured": true,
+    "image": "/machines/bag-machine-mq5d78d9.jpg"
   }
 ]

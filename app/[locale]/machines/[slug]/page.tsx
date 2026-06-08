@@ -7,7 +7,7 @@ import { getDictionary, interpolate } from '@/i18n/getDictionary';
 import { machines, getMachineBySlug, getRelatedMachines } from '@/data/machines';
 import { getProductBySlug } from '@/data/products';
 import { whatsappUrl } from '@/lib/contact';
-import MachineThumb from '@/components/MachineThumb';
+import MachineImageGallery from '@/components/MachineImageGallery';
 import MachineCard from '@/components/MachineCard';
 import FAQ from '@/components/FAQ';
 import VideoEmbed from '@/components/VideoEmbed';
@@ -69,7 +69,7 @@ export default function MachineDetailPage({
           </Link>
 
           <div className="mt-8 grid gap-10 lg:grid-cols-12 lg:gap-12 items-center">
-            <div className="lg:col-span-7 order-2 lg:order-1">
+            <div className="lg:col-span-5 order-2 lg:order-1">
               <div className="inline-flex items-center gap-2 rounded-full border border-brand-gray-200 bg-white px-3.5 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] shadow-soft">
                 {machine.category}
               </div>
@@ -95,33 +95,13 @@ export default function MachineDetailPage({
               </div>
             </div>
 
-            <div className="lg:col-span-5 order-1 lg:order-2">
-              <div className="relative aspect-[5/4] rounded-3xl border border-brand-gray-200 overflow-hidden bg-white shadow-card">
-                <MachineThumb
-                  category={machine.category}
-                  image={machine.image}
-                  alt={machine.name[locale]}
-                />
-              </div>
-
-              {machine.gallery && machine.gallery.length > 0 && (
-                <div className="mt-3 grid grid-cols-4 gap-2">
-                  {machine.gallery.slice(0, 4).map((url, i) => (
-                    <div
-                      key={url + i}
-                      className="relative aspect-square overflow-hidden rounded-xl border border-brand-gray-200 bg-white"
-                    >
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={url}
-                        alt={`${machine.name[locale]} ${i + 1}`}
-                        className="absolute inset-0 h-full w-full object-cover"
-                        loading="lazy"
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
+            <div className="lg:col-span-7 order-1 lg:order-2">
+              <MachineImageGallery
+                category={machine.category}
+                image={machine.image}
+                gallery={machine.gallery}
+                alt={machine.name[locale]}
+              />
             </div>
           </div>
         </div>

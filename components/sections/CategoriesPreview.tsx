@@ -3,7 +3,6 @@ import { ArrowRight, Box, Package, Wrench } from 'lucide-react';
 import type { Locale } from '@/i18n/config';
 import { getDictionary } from '@/i18n/getDictionary';
 import { products } from '@/data/products';
-import ProductIcon from '@/components/ProductIcon';
 import { getMachinesByProduct } from '@/data/machines';
 
 const PREVIEW = [
@@ -85,26 +84,34 @@ export default function CategoriesPreview({ locale }: { locale: Locale }) {
             </Link>
           </div>
 
-          <div className="mt-7 grid gap-x-8 gap-y-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
             {previewProducts.map((product) => {
               const count = getMachinesByProduct(product.slug).length;
               return (
                 <Link
                   key={product.slug}
                   href={`/${locale}/products/${product.slug}`}
-                  className="group flex items-center gap-3 border-b border-brand-gray-100 pb-4"
+                  className="group overflow-hidden border border-brand-gray-100 transition-colors hover:border-brand-red/40"
                 >
-                  <span className="flex h-11 w-11 flex-shrink-0 items-center justify-center bg-brand-red/10 text-brand-red transition-colors group-hover:bg-brand-red group-hover:text-white">
-                    <ProductIcon name={product.icon || 'box'} className="h-5 w-5" />
-                  </span>
-                  <span className="min-w-0">
-                    <span className="block text-sm font-bold text-brand-black group-hover:text-brand-red">
+                  <div className="relative aspect-[4/3] overflow-hidden bg-brand-gray-100">
+                    {product.image && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={product.image}
+                        alt={product.name[locale]}
+                        className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                    )}
+                  </div>
+                  <div className="p-3">
+                    <p className="text-sm font-bold leading-tight text-brand-black group-hover:text-brand-red">
                       {product.name[locale]}
-                    </span>
-                    <span className="mt-0.5 block text-xs text-brand-gray-500">
+                    </p>
+                    <p className="mt-0.5 text-xs text-brand-gray-500">
                       {count} {dict.products.card.machines}
-                    </span>
-                  </span>
+                    </p>
+                  </div>
                 </Link>
               );
             })}
